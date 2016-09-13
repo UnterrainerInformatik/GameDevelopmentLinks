@@ -24,6 +24,9 @@ Contributions are welcome!
   * [Audio](#audio)
 * [Components](#components)
 * [Libraries](#libraries)
+  * [Game Engines](#game-engines)
+  * [Networking](#networking)
+  * [Connectors](#connectors)
 * [Tools](#tools)
 * [Artistic Material](#artistic-material)
   * [Graphics](#graphics)
@@ -113,11 +116,21 @@ This stuff here is ripped from our game. For you to take and use as you like.
 
 ## Libraries
 Here you find game-engines, extensions, etc.
+
+### Game Engines
 * [**MonoGame**](http://www.monogame.net/) - XNA continued!  By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
 * [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
 * [**Nez**](https://github.com/prime31/Nez) - Another great extension library. Very comprehensive.
 
+### Networking
+* [**Lidgren**](https://github.com/lidgren/lidgren-network-gen3) - One of the major players when it comes to connecting your game-clients. Definitely worth a look.
+* [**RakNet**](https://github.com/OculusVR/RakNet) - One of the major players as well.
+
+### Connectors
+* [**Steamworks.NET**](https://github.com/rlabrecque/Steamworks.NET) - A .NET wrapper for the SteamWorks API.
+
 ## Tools
+* [**ProtoBuild**](https://protobuild.org/) - If you wanna do cross-platform development this tool will help you to keep your project-files in order.
 * [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?  A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
 * [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?  When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
 * [**DXT Compression**](http://code.google.com/p/libsquish/) - You want to compress the textures of your game on your own?  Normally you'd use the content-loader-pipeline of XNA (don't fear; the content-loader-pipeline does almost everything automatically), but if you can't use it, then you'll be stuck with this when you're trying to get compressed textures to your graphics-card.  
