@@ -31,38 +31,24 @@ He has some more stuff going on at his blog, but frankly I didn't have the time 
    
 ## Mathematics And Stuff 
 This section contains articles about mathematical problems. You can't do without.
-
-### Trajectory Calculations
-Want your bullet to fly the right way?  
-These links show you how to do the necessary math for a 3D trajectory.  
-* [**Trajectory-Math**](http://stackoverflow.com/questions/966935/trajectory-math-c-sharp) - A StackOverflow article with some helpful formulas.
-
-#### Ballistic
+* [**Trajectory Calculations**](http://stackoverflow.com/questions/966935/trajectory-math-c-sharp) - Want your bullet to fly the right way?  
+These links show you how to do the necessary math for a 3D trajectory.
 * [**Curve-Path**](http://stackoverflow.com/questions/3273396/animate-sprite-along-a-curve-path-in-xna)
 * [**Ballistic Trajectory**](http://www.gamedev.net/topic/333044-does-anybody-have-a-simple-ballistic-trajectory-algorithm-i-can-use/)
-
-#### Bounce Angle
-Want your ball to bounce off the wall?
-* [**Calculate a bounce-angle**](http://stackoverflow.com/questions/573084/how-to-calculate-bounce-angle) - This StackOverflow topic shows you how to do the necessary math.  
-   
-#### Collision Detection Overview in XNA
-You want the monster to die, when you hit it?  
-* [**XNA Collisions (MSDN)**](http://msdn.microsoft.com/en-us/library/bb313876%28v=xnagamestudio.20%29.aspx) - This is a good and very general overview. It describes the procedure using XNA-datastructures (which isn't always the best choice), but I think that this is a "must read".  
-
-#### Line Intersection
-You have intersecting lines but you don't know the intersection point?  
-* [**TopCoder**](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2) - Helpful formulas when wanting to know the intersection-point of lines in general.  
-   
-#### Intersection Tests
-You want to know the point where the bullet hit the plane?  
-* [**Gamasutra - Intersection Tests**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php?page=1) - This is THE site containing an abundance of intersection tests for various geometric primitives. Must read. Thank you very much Miguel Gomez.  
-
-#### Separating Axis Theorem
-You want to know, if the ray hit the polygon?  
-By the way: AABB means Axis-Aligned-Bounding-Box.  
-* [**MetaNetSoftware - SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - This is a very interesting and helpful technique (and straight forward).  
+* [**Calculate a bounce-angle**](http://stackoverflow.com/questions/573084/how-to-calculate-bounce-angle) - Want your ball to bounce off the wall?
+This StackOverflow topic shows you how to do the necessary math.  
+* [**Collision Detection Overview in XNA**](http://msdn.microsoft.com/en-us/library/bb313876%28v=xnagamestudio.20%29.aspx) - You want the monster to die, when you hit it?
+This is a good and very general overview. It describes the procedure using XNA-datastructures (which isn't always the best choice), but I think that this is a "must read".  
+* [**Line Intersection**](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2) - You have intersecting lines but you don't know the intersection point?
+Helpful formulas when wanting to know the intersection-point of lines in general.  
+* [**Intersection Tests**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php?page=1) - You want to know the point where the bullet hit the plane?
+This is THE site containing an abundance of intersection tests for various geometric primitives. Must read. Thank you very much Miguel Gomez.  
+* [**Separating Axis Theorem (SAT)**](http://www.metanetsoftware.com/technique/tutorialA.html) - You want to know, if the ray hit the polygon?  
+By the way: AABB means Axis-Aligned-Bounding-Box.
+This is a very interesting and helpful technique (and straight forward).  
 
 ## Programming Guides 
+This section contains tips about how to structure your programs or how to achieve certain tasks necessary for game-deployment.
 
 ### General
 * [**Shadow-Copying of Applications**](http://www.codeproject.com/Articles/29961/Shadow-Copying-of-Applications) - You want your installer to delete itself in windows?  
@@ -84,134 +70,71 @@ This is the premier-league of multi-threaded-programming. It's very difficult an
 This is a good implementation of the A* Algorithm. You have to modify it of course, because the garbage collector would kill you in no time, but it's a good starting point.  
 
 ### XNA
-   
-###### XNA 3.11 to XNA 4.0 Conversion Cheat Sheet
-You want to change XNA 3.1 code to 4.0?  
+* [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?
 This is a great help when searching for a way to get things done the right way. Many examples.  
-* [****](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php  
-   
-###### Getting A List Of Supported Display Modes
-You want to know the resolutions your client's machine supports?  
+* [**Getting A List Of Supported Display Modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports
 This one is very simple. You just ask XNA and you'll get what you want.  
-* [****](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna  
-   
-###### 2D Camera With Zoom And Rotation
-You want to write a platformer?  
+* [**2D Camera With Zoom And Rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?
 This is a tutorial on how to implement a proper camera for a 2D game.  
-* [****](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/  
-   
-   
-##### Graphics / Effects
-   
-###### Using Shaders
-You want to use shaders and don't know what that is?  
+
+### Graphics / Effects
+* [**Using Shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?
 Then this site is a good place to start.  
-* [****](http://www.xnamag.de/article.php?aid=34  
-   
-###### 3D Model Drawing Guide
-You want to draw a 3D model in XNA?  
+* [**3D Model Drawing Guide**](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/) - You want to draw a 3D model in XNA?
 This guide shows, step by step, how to draw a mesh in XNA. Nicely done, thank you very much.  
-* [****](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/  
-   
-###### 2D Circles And Lines
-Want to draw 2D using XNA?Well. Then you're in for a treat!  
-It's impossible to do that without completely destroying the performance of your game. But since you're inevitably sitting on a high-performance-graphics-workhorse already, you may draw 3D as well. These links show you how.  
-* [****](http://xboxforums.create.msdn.com/forums/p/7414/200025.aspx  
-* [****](http://www.bit-101.com/blog/?p=2832  
-   
-###### Premultiplied Alpha And Alpha-Blending
-You want to understand the intricacies of this subject?  
+* [**2D Circles And Lines**](http://xboxforums.create.msdn.com/forums/p/7414/200025.aspx) - Want to draw 2D using XNA?Well. Then you're in for a treat!  
+It's impossible to do that without completely destroying the performance of your game. But since you're inevitably sitting on a high-performance-graphics-workhorse already, you may draw 3D as well. These links show you how.
+* [**2D Circles And Lines**](http://www.bit-101.com/blog/?p=2832)
+* [**Premultiplied Alpha And Alpha-Blending**](http://blogs.msdn.com/b/shawnhar/archive/2009/11/06/premultiplied-alpha.aspx) - You want to understand the intricacies of this subject?
 Well. Here is the Master of XNA for you. May I present: Shawn Hargreaves...  
-* [****](http://blogs.msdn.com/b/shawnhar/archive/2009/11/06/premultiplied-alpha.aspx  
-   
-###### Post Processing Effects
-You want a bloom-filter?
+* [**Post Processing Effects**](http://www.float4x4.net/index.php/2011/02/xna-after-effects-part-1/) - You want a bloom-filter?
 This tutorial explains the usage and limitations of such an effect.  
-* [****](http://www.float4x4.net/index.php/2011/02/xna-after-effects-part-1/  
-   
-###### Dynamic 2D Shadows
-You want a flashlight in your 2D game?  
+* [**Dynamic 2D Shadows**](http://www.catalinzima.com/samples/12-months-12-samples-2008/dynamic-2d-shadows/) - You want a flashlight in your 2D game?
 This is one of the most popular tutorial-sites out there. I cannot thank Catalin enough for his efforts making this site.  
-* [****](http://www.catalinzima.com/samples/12-months-12-samples-2008/dynamic-2d-shadows/  
-   
-   
-##### HLSL Shaders
-   
-###### Graphics Pipeline Diagram
-You are stuck programming your shader and don't know what happens and when?  
+
+### HLSL Shaders
+* [**Graphics Pipeline Diagram**](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series3/HLSL_introduction.php) - You are stuck programming your shader and don't know what happens and when?
 This is a very popular site about XNA game development in general. This particular page contains a very useful diagram of the graphics rendering pipeline, that may lighten things up a bit during dark, non-comprehending times (you will have that, I promise).  
-* [****](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series3/HLSL_introduction.php  
-   
-###### HLSL Language Reference
-Want to know how HLSL works?This is Microsoft's HLSL reference. Nothing more, nothing less.  
-* [****](http://msdn.microsoft.com/en-us/library/windows/desktop/ff471376(v=vs.85).aspx  
-   
-###### Wiggle Effect
-Want your background to wiggle?  
+* [**HLSL Language Reference**](http://msdn.microsoft.com/en-us/library/windows/desktop/ff471376(v=vs.85).aspx) - Want to know how HLSL works?
+This is Microsoft's HLSL reference. Nothing more, nothing less.  
+* [**Wiggle Effect**](http://digitalerr0r.wordpress.com/2009/04/22/xna-shader-programming-tutorial-9-post-process-wiggle/) - Want your background to wiggle?
 Then this tutorial is for you. Presented to you by digitalerr0r, a great site for HLSL tutorials.  
-* [****](http://digitalerr0r.wordpress.com/2009/04/22/xna-shader-programming-tutorial-9-post-process-wiggle/  
-   
-###### Bloom Post Process Filter
-Want your game to shine?  
+* [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?
 This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
-* [****](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/  
-   
-###### GPU Driven Terrain Mapping
-You want to render your terrain given a low-res terrain-map-texture?  
+* [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  
 This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.  
-* [****](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/  
-   
-   
-##### Audio
-   
-###### XACT Audio Tutorials
-You want to make noise, but you don't know how?  
+
+### Audio
+* [**XACT Audio Tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?
 This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
-* [****](http://rbwhitaker.wikidot.com/audio-tutorials  
-   
-###### Attenuation / Doppler Pitch Shifting in XACT
-You want your close sprites to be louder than the ones far away?  
+* [**Attenuation / Doppler Pitch Shifting in XACT**](http://msdn.microsoft.com/en-us/library/dd231913.aspx) - You want your close sprites to be louder than the ones far away?  
 Very elaborate Microsoft tutorial on creating attenuation and doppler-pitch-shifting using XACT. Nice, step by step and many screenshots.  
-* [****](http://msdn.microsoft.com/en-us/library/dd231913.aspx  
-   
-   
-##### Tools
-   
-###### wyBuild
-You want to have an updating game (maybe self-updating)?  
+
+## Tools
+* [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?
 A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
-* [****](http://wyday.com/wybuild/features.php  
-   
-###### Convert to Icon
-You want your own mouse-cursor?  
+* [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?
 When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
-* [****](http://converticon.com/  
-   
-###### DXT Compression
-You want to compress the textures of your game on your own?  
+* [**DXT Compression**](http://code.google.com/p/libsquish/) - You want to compress the textures of your game on your own?
 Normally you'd use the content-loader-pipeline of XNA (don't fear; the content-loader-pipeline does almost everything automatically), but if you can't use it, then you'll be stuck with this when you're trying to get compressed textures to your graphics-card.  
-* [****](http://code.google.com/p/libsquish/  
-   
-   
-#### Artistic Material 
+
+## Artistic Material 
 All the sites I link to in this paragraph contain "free for commercial use" material, although they may contain non-free material as well. It's your responsibility to check before you use it.  
 You won't be able to dodge the fight with the even or odd license when dealing with creative content, so you might as well get over it.  
-   
-##### Graphics
+
+### Graphics
 You want a sky-, grass- or other texture?  
 These sites contain, besides other stuff, free-for-commercial-use textures.  
-* [****](http://www.noctua-graphics.de/deutsch/fraset_d.htm  
-* [****](http://telias.free.fr/  
-* [****](http://www.cgtextures.com/  
-   
-   
-##### Fonts
+* http://www.noctua-graphics.de/deutsch/fraset_d.htm  
+* http://telias.free.fr/  
+* http://www.cgtextures.com/  
+
+### Fonts
 You want to write something on the screen without getting sued?  
 These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  
-* [****](http://www.fontsquirrel.com  
-   
-   
-##### Sounds
+* http://www.fontsquirrel.com
+
+### Sounds
 You've got no sound yet?These sites contain, besides other stuff, free-for-commercial-use samples.  
-* [****](http://www.mediacollege.com/downloads/sound-effects/  
-* [****](http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml  
+* http://www.mediacollege.com/downloads/sound-effects/
+* http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml
