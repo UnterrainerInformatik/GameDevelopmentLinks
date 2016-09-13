@@ -16,7 +16,7 @@ Contributions are welcome!
 * [Lookup Tables](#Lookup Tables)
 * [Mathematics And Stuff](#Mathematics And Stuff)
 * [Programming Guides](#Programming Guides)
-  * [General](#General)
+  * [General](#general)
   * [AI](#AI)
   * [XNA](#XNA)
   * [Graphics / Effects](#Graphics / Effects)
