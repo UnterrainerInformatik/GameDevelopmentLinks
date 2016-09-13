@@ -21,7 +21,8 @@ Contributions are welcome!
   * [Graphics And Effects](#graphics-and-effects)
   * [HLSL Shaders](#hlsl-shaders)
   * [Audio](#audio)
-* [Components](#components) 
+* [Components](#components)
+* [Libraries](#libraries)
 * [Tools](#tools)
 * [Artistic Material](#artistic-material)
   * [Graphics](#graphics)
@@ -104,6 +105,12 @@ This stuff here is ripped from our game. For you to take and use as you like.
 * [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
 * [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
 * [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
+
+## Libraries
+Here you find game-engines, extensions, etc.
+* [**MonoGame**](http://www.monogame.net/) - XNA continued!  By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
+* [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
+* [**Nez**](https://github.com/prime31/Nez) - Another great extension library. Very comprehensive.
 
 ## Tools
 * [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?  A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
