@@ -11,7 +11,7 @@ If you want to contribute just fork this repo, make changes and then a pull requ
 Contributions are welcome!
 
 # Contents
-* [Tutorial Sites](#Tutorial Sites)
+* [Tutorial Sites](#tutorial-sites)
 * [Lookup Tables](#lookup-tables)
 * [Mathematics And Stuff](#mathematics-and-stuff)
 * [Programming Guides](#programming-guides)
@@ -19,7 +19,7 @@ Contributions are welcome!
   * [Components](#components)
   * [AI](#ai)
   * [XNA](#xna)
-  * [Graphics / Effects](#graphics-/-effects)
+  * [Graphics And Effects](#graphics-and-effects)
   * [HLSL Shaders](#hlsl-shaders)
   * [Audio](#audio)
 * [Tools](#tools)
@@ -102,7 +102,7 @@ This one is very simple. You just ask XNA and you'll get what you want.
 * [**2D Camera With Zoom And Rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?
 This is a tutorial on how to implement a proper camera for a 2D game.  
 
-### Graphics / Effects
+### Graphics And Effects
 * [**Using Shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?
 Then this site is a good place to start.  
 * [**3D Model Drawing Guide**](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/) - You want to draw a 3D model in XNA?
