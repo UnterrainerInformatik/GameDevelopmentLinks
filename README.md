@@ -20,6 +20,7 @@ Contributions are welcome!
   * [AI](#ai)
   * [XNA](#xna)
   * [Graphics And Effects](#graphics-and-effects)
+  * [Spatial Partitioning](#spatial-partitioning)
   * [HLSL Shaders](#hlsl-shaders)
   * [Audio](#audio)
 * [Components](#components)
@@ -64,48 +65,59 @@ This section contains articles about mathematical problems. You can't do without
 * [**Collision Detection Overview in XNA**](http://msdn.microsoft.com/en-us/library/bb313876%28v=xnagamestudio.20%29.aspx) - You want the monster to die, when you hit it?  This is a good and very general overview. It describes the procedure using XNA-datastructures (which isn't always the best choice), but I think that this is a "must read".  
 * [**Line Intersection**](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2) - You have intersecting lines but you don't know the intersection point?  Helpful formulas when wanting to know the intersection-point of lines in general.  
 * [**Intersection Tests**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php?page=1) - You want to know the point where the bullet hit the plane?  This is THE site containing an abundance of intersection tests for various geometric primitives. Must read. Thank you very much Miguel Gomez.  
+* [**Wiki-page for SAT**](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem) - Good explanation with some helpful diagrams.
 * [**Separating Axis Theorem (SAT)**](http://www.metanetsoftware.com/technique/tutorialA.html) - You want to know, if the ray hit the polygon?  By the way: AABB means Axis-Aligned-Bounding-Box.
-This is a very interesting and helpful technique (and straight forward).  
+This is a very interesting and helpful technique (and straight forward).
+* [**And another tutorial on the SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - Great diagrams. Nice read.
 
 ## Programming Guides 
 This section contains tips about how to structure your programs or how to achieve certain tasks necessary for game-deployment.
 
 ### General
-* [**Shadow-Copying of Applications**](http://www.codeproject.com/Articles/29961/Shadow-Copying-of-Applications) - You want your installer to delete itself in windows?  You might come to a point where you'll end up writing your setup or updating your application, where you want to unload a program, that is currently running. In general that's not easily possible, but this project might help. We circumvented the issue by using a WIX setup (you are able to run programs before and afterwards that are not present on the disk, but in the GAC, which is very nice; We deleted the install-directory that way by running a C# deletion-program leaving no trace of the game whatsoever).
-* [**Repositioning The Cursor**](http://www.pinvoke.net/default.aspx/user32.setcursorpos) - You want to reposition or clamp the windows cursor to or within a window?  On a multi-monitor setup you should prevent the mouse cursor from leaving the monitor your customer is playing on. Here you'll find the proper interop-calls (I'm sure you know this site).
-* [**Saving The State of Your Game**](http://stackoverflow.com/questions/3723287/what-is-a-good-example-of-saving-game-data-in-xna-4-0) - You want to create a save-game?  This is a very quick and elegant method to accomplish this by using XML.  
-* [**Get Special Folders**](http://dn.embarcadero.com/article/32384) - You want to save your save-game in %appdata%?  This page shows you how to get the paths of these special directories regardless of the version of windows your customer is running. Necessary to avoid "no write permission" errors on saving any game-data.  
-* [**Multi CPU Usage**](http://www.codeproject.com/Articles/7933/Smart-Thread-Pool#Feature5) - You want to use all of the CPU cores on your customer's machine?  You may want to use .NET's new parallels framework or, if you are stuck with an older .NET framework, write one of your own.
-* [**'Non-Blocking' Synchronization**](http://www.albahari.com/threading/part4.aspx) - You want your code synchronized without blocking waits?  This is the premier-league of multi-threaded-programming. It's very difficult and subtle. Fasten your seatbelts, you're in for some ride.
-* [**Decompress DXT Textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
+* [**Shadow-Copying of applications**](http://www.codeproject.com/Articles/29961/Shadow-Copying-of-Applications) - You want your installer to delete itself in windows?  You might come to a point where you'll end up writing your setup or updating your application, where you want to unload a program, that is currently running. In general that's not easily possible, but this project might help. We circumvented the issue by using a WIX setup (you are able to run programs before and afterwards that are not present on the disk, but in the GAC, which is very nice; We deleted the install-directory that way by running a C# deletion-program leaving no trace of the game whatsoever).
+* [**Repositioning the cursor**](http://www.pinvoke.net/default.aspx/user32.setcursorpos) - You want to reposition or clamp the windows cursor to or within a window?  On a multi-monitor setup you should prevent the mouse cursor from leaving the monitor your customer is playing on. Here you'll find the proper interop-calls (I'm sure you know this site).
+* [**Saving the state of your game**](http://stackoverflow.com/questions/3723287/what-is-a-good-example-of-saving-game-data-in-xna-4-0) - You want to create a save-game?  This is a very quick and elegant method to accomplish this by using XML.  
+* [**Get special folders**](http://dn.embarcadero.com/article/32384) - You want to save your save-game in %appdata%?  This page shows you how to get the paths of these special directories regardless of the version of windows your customer is running. Necessary to avoid "no write permission" errors on saving any game-data.  
+* [**Multi CPU usage**](http://www.codeproject.com/Articles/7933/Smart-Thread-Pool#Feature5) - You want to use all of the CPU cores on your customer's machine?  You may want to use .NET's new parallels framework or, if you are stuck with an older .NET framework, write one of your own.
+* [**'Non-Blocking' synchronization**](http://www.albahari.com/threading/part4.aspx) - You want your code synchronized without blocking waits?  This is the premier-league of multi-threaded-programming. It's very difficult and subtle. Fasten your seatbelts, you're in for some ride.
+* [**Decompress DXT textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
 
 ### AI
 * [**Path-Finding**](http://www.codeproject.com/Articles/5758/Path-finding-in-C) - You want your hero to find the right way?  This is a good implementation of the A* Algorithm. You have to modify it of course, because the garbage collector would kill you in no time, but it's a good starting point.  
 
 ### XNA
 * [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?  This is a great help when searching for a way to get things done the right way. Many examples.  
-* [**Getting A List Of Supported Display Modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports?  This one is very simple. You just ask XNA and you'll get what you want.  
-* [**2D Camera With Zoom And Rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?  This is a tutorial on how to implement a proper camera for a 2D game.  
+* [**Getting a list of supported display modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports?  This one is very simple. You just ask XNA and you'll get what you want.  
+* [**2D camera with zoom and rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?  This is a tutorial on how to implement a proper camera for a 2D game.  
 
 ### Graphics And Effects
-* [**Using Shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?  Then this site is a good place to start.  
-* [**3D Model Drawing Guide**](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/) - You want to draw a 3D model in XNA?  This guide shows, step by step, how to draw a mesh in XNA. Nicely done, thank you very much.  
-* [**2D Circles And Lines**](http://xboxforums.create.msdn.com/forums/p/7414/200025.aspx) - Want to draw 2D using XNA?Well. Then you're in for a treat!  It's impossible to do that without completely destroying the performance of your game. But since you're inevitably sitting on a high-performance-graphics-workhorse already, you may draw 3D as well. These links show you how.
-* [**2D Circles And Lines**](http://www.bit-101.com/blog/?p=2832)
-* [**Premultiplied Alpha And Alpha-Blending**](http://blogs.msdn.com/b/shawnhar/archive/2009/11/06/premultiplied-alpha.aspx) - You want to understand the intricacies of this subject?  Well. Here is the Master of XNA for you. May I present: Shawn Hargreaves...  
-* [**Post Processing Effects**](http://www.float4x4.net/index.php/2011/02/xna-after-effects-part-1/) - You want a bloom-filter?  This tutorial explains the usage and limitations of such an effect.  
-* [**Dynamic 2D Shadows**](http://www.catalinzima.com/samples/12-months-12-samples-2008/dynamic-2d-shadows/) - You want a flashlight in your 2D game?  This is one of the most popular tutorial-sites out there. I cannot thank Catalin enough for his efforts making this site.  
+* [**Using shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?  Then this site is a good place to start.  
+* [**3D model drawing guide**](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/) - You want to draw a 3D model in XNA?  This guide shows, step by step, how to draw a mesh in XNA. Nicely done, thank you very much.  
+* [**2D circles and lines**](http://xboxforums.create.msdn.com/forums/p/7414/200025.aspx) - Want to draw 2D using XNA?Well. Then you're in for a treat!  It's impossible to do that without completely destroying the performance of your game. But since you're inevitably sitting on a high-performance-graphics-workhorse already, you may draw 3D as well. These links show you how.
+* [**2D circles and lines**](http://www.bit-101.com/blog/?p=2832)
+* [**Premultiplied alpha and alpha-blending**](http://blogs.msdn.com/b/shawnhar/archive/2009/11/06/premultiplied-alpha.aspx) - You want to understand the intricacies of this subject?  Well. Here is the Master of XNA for you. May I present: Shawn Hargreaves...  
+* [**Post processing effects**](http://www.float4x4.net/index.php/2011/02/xna-after-effects-part-1/) - You want a bloom-filter?  This tutorial explains the usage and limitations of such an effect.  
+* [**Dynamic 2D shadows**](http://www.catalinzima.com/samples/12-months-12-samples-2008/dynamic-2d-shadows/) - You want a flashlight in your 2D game?  This is one of the most popular tutorial-sites out there. I cannot thank Catalin enough for his efforts making this site.  
+* [**Depth-Sorting sprites**](https://blogs.msdn.microsoft.com/shawnhar/2009/02/18/depth-sorting-alpha-blended-objects/) - Shawn Hargreaves himself on how to order your sprites before drawing.
+* [**The half-pixel offset**](http://drilian.com/2008/11/25/understanding-half-pixel-and-half-texel-offsets/) - In XNA or MonoGame driven games you will see a Vector(.5f, .5f) added on a projection matrix sometimes. Here is why.
+* [**And another one on the half-pixel**](https://msdn.microsoft.com/en-us/library/windows/desktop/bb219690(v=vs.85).aspx) - This is Microsofts explanation for it.
+
+### Spatial Partitioning
+* [**Spatial Partitioning**](https://en.wikipedia.org/wiki/Space_partitioning) - Spatial Partitioning - an overview.
+* [**CollisionGrid**](https://github.com/UnterrainerInformatik/collisiongrid/blob/master/README.md) - This is the way to go for evenly distributed objects in a small 2D space.
+* [**Quadtree**](https://en.wikipedia.org/wiki/Quadtree) - This is the way to go for unevenly distributed objects in a 2D space.
+* [**Octree**](https://en.wikipedia.org/wiki/Octree) - This is the way to go for unevenly distributed objects in a 3D space.
 
 ### HLSL Shaders
 * [**Graphics Pipeline Diagram**](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series3/HLSL_introduction.php) - You are stuck programming your shader and don't know what happens and when?  This is a very popular site about XNA game development in general. This particular page contains a very useful diagram of the graphics rendering pipeline, that may lighten things up a bit during dark, non-comprehending times (you will have that, I promise).  
-* [**HLSL Language Reference**](http://msdn.microsoft.com/en-us/library/windows/desktop/ff471376(v=vs.85).aspx) - Want to know how HLSL works?  This is Microsoft's HLSL reference. Nothing more, nothing less.  
+* [**HLSL language reference**](http://msdn.microsoft.com/en-us/library/windows/desktop/ff471376(v=vs.85).aspx) - Want to know how HLSL works?  This is Microsoft's HLSL reference. Nothing more, nothing less.  
 * [**Wiggle Effect**](http://digitalerr0r.wordpress.com/2009/04/22/xna-shader-programming-tutorial-9-post-process-wiggle/) - Want your background to wiggle?  Then this tutorial is for you. Presented to you by digitalerr0r, a great site for HLSL tutorials.  
 * [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?  This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
 * [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.
 
 ### Audio
-* [**XACT Audio Tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
-* [**Attenuation / Doppler Pitch Shifting in XACT**](http://msdn.microsoft.com/en-us/library/dd231913.aspx) - You want your close sprites to be louder than the ones far away?  Very elaborate Microsoft tutorial on creating attenuation and doppler-pitch-shifting using XACT. Nice, step by step and many screenshots.  
+* [**XACT audio tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
+* [**Attenuation / Doppler pitch shifting in XACT**](http://msdn.microsoft.com/en-us/library/dd231913.aspx) - You want your close sprites to be louder than the ones far away?  Very elaborate Microsoft tutorial on creating attenuation and doppler-pitch-shifting using XACT. Nice, step by step and many screenshots.  
 
 ## Components
 This stuff here is ripped from our game. For you to take and use as you like.
