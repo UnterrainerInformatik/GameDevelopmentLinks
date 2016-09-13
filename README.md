@@ -69,6 +69,7 @@ This section contains articles about mathematical problems. You can't do without
 * [**Separating Axis Theorem (SAT)**](http://www.metanetsoftware.com/technique/tutorialA.html) - You want to know, if the ray hit the polygon?  By the way: AABB means Axis-Aligned-Bounding-Box.
 This is a very interesting and helpful technique (and straight forward).
 * [**And another tutorial on the SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - Great diagrams. Nice read.
+* [**SAT - Explained**](http://www.dyn4j.org/2010/01/sat/) - And another one. You should be able to tell that this one is important from the number of articles here. This one has nice diagrams and a really good explanation.
 
 ## Programming Guides 
 This section contains tips about how to structure your programs or how to achieve certain tasks necessary for game-deployment.
