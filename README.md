@@ -1,6 +1,5 @@
 # GameDevelopmentLinks
 This is a collection of useful game-development links including, but not restricted to, development with MonoGame.
-https://gist.github.com/guFalcon/39a24c1c0bba644a2ba3e03f53601632
 
 During the process of developing our game I came across a large variety of websites that I found very useful.  
 This page is a collection of all of them baring a short description. I will check in every month or so and update this list accordingly.  
@@ -13,20 +12,21 @@ Contributions are welcome!
 
 # Contents
 * [Tutorial Sites](#Tutorial Sites)
-* [Lookup Tables](#Lookup Tables)
-* [Mathematics And Stuff](#Mathematics And Stuff)
-* [Programming Guides](#Programming Guides)
+* [Lookup Tables](#lookup-tables)
+* [Mathematics And Stuff](#mathematics-and-stuff)
+* [Programming Guides](#programming-guides)
   * [General](#general)
-  * [AI](#AI)
-  * [XNA](#XNA)
-  * [Graphics / Effects](#Graphics / Effects)
-  * [HLSL Shaders](#HLSL Shaders)
-  * [Audio](#Audio)
-* [Tools](#Tools)
-* [Artistic Material](#Artistic Material)
-  * [Graphics](#Graphics)
-  * [Fonts](#Fonts)
-  * [Sounds](#Sounds)
+  * [Components](#components)
+  * [AI](#ai)
+  * [XNA](#xna)
+  * [Graphics / Effects](#graphics-/-effects)
+  * [HLSL Shaders](#hlsl-shaders)
+  * [Audio](#audio)
+* [Tools](#tools)
+* [Artistic Material](#artistic-material)
+  * [Graphics](#graphics)
+  * [Fonts](#fonts)
+  * [Sounds](#sounds)
 
 ## Tutorial Sites 
 No specific order.  
@@ -81,6 +81,14 @@ You may want to use .NET's new parallels framework or, if you are stuck with an 
 This is the premier-league of multi-threaded-programming. It's very difficult and subtle. Fasten your seatbelts, you're in for some ride.
 * [**Decompress DXT Textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files?
 * There are not many reasons for you to want to do this, but nevertheless. Here it is.  
+
+### Components
+This stuff here is ripped from our game. For you to take and use as you like.
+* [**Object Pool**](https://gist.github.com/guFalcon/39a24c1c0bba644a2ba3e03f53601632) - This is a lock-free object pool. One of the integral parts of a game-engines.
+* [**Collision Grid**](https://github.com/UnterrainerInformatik/collisiongrid) - Used in the broad-phase of collision detection. Faster than a Quad-Tree. Description is inside.
+* [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
+* [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
+* [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
 
 ### AI
 * [**Path-Finding**](http://www.codeproject.com/Articles/5758/Path-finding-in-C) - You want your hero to find the right way?
