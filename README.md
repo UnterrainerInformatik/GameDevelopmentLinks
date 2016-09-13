@@ -11,6 +11,7 @@ If you want to contribute just fork this repo, make changes and then a pull requ
 Contributions are welcome!
 
 # Contents
+* [Link Lists](#link-lists)
 * [Tutorial Sites](#tutorial-sites)
 * [Lookup Tables](#lookup-tables)
 * [Mathematics And Stuff](#mathematics-and-stuff)
@@ -29,8 +30,9 @@ Contributions are welcome!
   * [Fonts](#fonts)
   * [Sounds](#sounds)
 
-Here is another link-list containing a large list of MonoGame related projects on GitHub.  
-* [Awesome-MonoGame](https://github.com/aloisdeniel/awesome-monogame) - Thx to the awesome Alois Deniel.
+## Link Lists
+Here are other link-lists to browse.    
+* [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
 
 ## Tutorial Sites 
 No specific order.  
