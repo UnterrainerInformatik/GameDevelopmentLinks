@@ -1,4 +1,4 @@
-# GameDevelopmentLinks
+# Game-Development Links
 This is a collection of useful game-development links including, but not restricted to, development with MonoGame.
 
 During the process of developing our game I came across a large variety of websites that I found very useful.  
