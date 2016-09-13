@@ -29,6 +29,9 @@ Contributions are welcome!
   * [Fonts](#fonts)
   * [Sounds](#sounds)
 
+Here is another link-list containing a large list of MonoGame related projects on GitHub.  
+* [Awesome-MonoGame](https://github.com/aloisdeniel/awesome-monogame) - Thx to the awesome Alois Deniel.
+
 ## Tutorial Sites 
 No specific order.  
 * [**Shawn Hargreave's Blog**](http://blogs.msdn.com/b/shawnhar/) - This is a must-read for every XNA developer. The blog of the Master himself.
