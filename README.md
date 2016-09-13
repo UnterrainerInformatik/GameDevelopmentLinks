@@ -16,12 +16,12 @@ Contributions are welcome!
 * [Mathematics And Stuff](#mathematics-and-stuff)
 * [Programming Guides](#programming-guides)
   * [General](#general)
-  * [Components](#components)
   * [AI](#ai)
   * [XNA](#xna)
   * [Graphics And Effects](#graphics-and-effects)
   * [HLSL Shaders](#hlsl-shaders)
   * [Audio](#audio)
+* [Components](#components) 
 * [Tools](#tools)
 * [Artistic Material](#artistic-material)
   * [Graphics](#graphics)
@@ -70,14 +70,6 @@ This section contains tips about how to structure your programs or how to achiev
 * [**'Non-Blocking' Synchronization**](http://www.albahari.com/threading/part4.aspx) - You want your code synchronized without blocking waits?  This is the premier-league of multi-threaded-programming. It's very difficult and subtle. Fasten your seatbelts, you're in for some ride.
 * [**Decompress DXT Textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
 
-### Components
-This stuff here is ripped from our game. For you to take and use as you like.
-* [**Object Pool**](https://gist.github.com/guFalcon/39a24c1c0bba644a2ba3e03f53601632) - This is a lock-free object pool. One of the integral parts of a game-engines.
-* [**Collision Grid**](https://github.com/UnterrainerInformatik/collisiongrid) - Used in the broad-phase of collision detection. Faster than a Quad-Tree. Description is inside.
-* [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
-* [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
-* [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
-
 ### AI
 * [**Path-Finding**](http://www.codeproject.com/Articles/5758/Path-finding-in-C) - You want your hero to find the right way?  This is a good implementation of the A* Algorithm. You have to modify it of course, because the garbage collector would kill you in no time, but it's a good starting point.  
 
@@ -104,6 +96,14 @@ This stuff here is ripped from our game. For you to take and use as you like.
 ### Audio
 * [**XACT Audio Tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
 * [**Attenuation / Doppler Pitch Shifting in XACT**](http://msdn.microsoft.com/en-us/library/dd231913.aspx) - You want your close sprites to be louder than the ones far away?  Very elaborate Microsoft tutorial on creating attenuation and doppler-pitch-shifting using XACT. Nice, step by step and many screenshots.  
+
+## Components
+This stuff here is ripped from our game. For you to take and use as you like.
+* [**Object Pool**](https://gist.github.com/guFalcon/39a24c1c0bba644a2ba3e03f53601632) - This is a lock-free object pool. One of the integral parts of a game-engines.
+* [**Collision Grid**](https://github.com/UnterrainerInformatik/collisiongrid) - Used in the broad-phase of collision detection. Faster than a Quad-Tree. Description is inside.
+* [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
+* [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
+* [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
 
 ## Tools
 * [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?  A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
