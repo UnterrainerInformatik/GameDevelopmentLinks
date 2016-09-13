@@ -25,69 +25,70 @@ No specific order.
 * [**XNA Game Tutorials**](http://xnatd.blogspot.co.at/) - Some XNA game tutorials (2D collision, etc…)
    
 ## Lookup Tables 
-   
+This section contains tables that I found useful during game-development.  
+
 * [**Color Charts**](http://www.kyleschouviller.com/xna/xna-color-charts/) - You want to set a color, but you can't see it?  
 This site has proved most useful for me. There is not a single day that I don't visit it. It contains all the named colors you may use directly in XNA (or windows respectively), sorted the way you want.  
 He has some more stuff going on at his blog, but frankly I didn't have the time to look into it.  
    
-#### Mathematics And Stuff 
-   
-##### Trajectory Calculations
+## Mathematics And Stuff 
+This section contains articles about mathematical problems. You can't do without.
+
+### Trajectory Calculations
 Want your bullet to fly the right way?  
 These links show you how to do the necessary math for a 3D trajectory.  
-  
-http://stackoverflow.com/questions/966935/trajectory-math-c-sharp  
 
-###### Ballistic
-http://stackoverflow.com/questions/3273396/animate-sprite-along-a-curve-path-in-xna  
-http://www.gamedev.net/topic/333044-does-anybody-have-a-simple-ballistic-trajectory-algorithm-i-can-use/  
+* [**Trajectory-Math**](http://stackoverflow.com/questions/966935/trajectory-math-c-sharp) - A StackOverflow article with some helpful formulas.
+
+#### Ballistic
+* [**Curve-Path**](http://stackoverflow.com/questions/3273396/animate-sprite-along-a-curve-path-in-xna)
+* [**Ballistic Trajectory**](http://www.gamedev.net/topic/333044-does-anybody-have-a-simple-ballistic-trajectory-algorithm-i-can-use/)  
+#### Bounce Angle
+Want your ball to bounce off the wall?
+
+* [**Calculate a bounce-angle**](http://stackoverflow.com/questions/573084/how-to-calculate-bounce-angle) - This StackOverflow topic shows you how to do the necessary math.  
    
-###### Bounce Angle
-Want your ball to bounce off the wall?  
-This StackOverflow topic shows you how to do the necessary math.  
-http://stackoverflow.com/questions/573084/how-to-calculate-bounce-angle  
-   
-###### Collision Detection Overview in XNA
+#### Collision Detection Overview in XNA
 You want the monster to die, when you hit it?  
-This is a good and very general overview. It describes the procedure using XNA-datastructures (which isn't always the best choice), but I think that this is a "must read".  
-http://msdn.microsoft.com/en-us/library/bb313876%28v=xnagamestudio.20%29.aspx  
-   
-###### Line Intersection
+
+* [**XNA Collisions (MSDN)**](http://msdn.microsoft.com/en-us/library/bb313876%28v=xnagamestudio.20%29.aspx) - This is a good and very general overview. It describes the procedure using XNA-datastructures (which isn't always the best choice), but I think that this is a "must read".  
+
+#### Line Intersection
 You have intersecting lines but you don't know the intersection point?  
-Helpful formulas when wanting to know the intersection-point of lines in general.  
-http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2  
+
+* [**TopCoder**](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2) - Helpful formulas when wanting to know the intersection-point of lines in general.  
    
-###### Intersection Tests
+#### Intersection Tests
 You want to know the point where the bullet hit the plane?  
-This is THE site containing an abundance of intersection tests for various geometric primitives. Must read.  
-Thank you very much Miguel Gomez.  
-http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php?page=1  
-   
-###### Separating Axis Theorem
+
+* [**Gamasutra - Intersection Tests**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php?page=1) - This is THE site containing an abundance of intersection tests for various geometric primitives. Must read. Thank you very much Miguel Gomez.  
+
+#### Separating Axis Theorem
 You want to know, if the ray hit the polygon?  
-This is a very interesting and helpful technique (and straight forward).  
 By the way: AABB means Axis-Aligned-Bounding-Box.  
-http://www.metanetsoftware.com/technique/tutorialA.html  
+
+* [**MetaNetSoftware - SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - This is a very interesting and helpful technique (and straight forward).  
+
+## Programming Guides 
+### General
    
-   
-#### Programming Guides 
-##### General
-   
-###### Shadow-Copying of Applications
+#### Shadow-Copying of Applications
 You want your installer to delete itself in windows?  
 You might come to a point where you'll end up writing your setup or updating your application, where you want to unload a program, that is currently running. In general that's not easily possible, but this project might help. We circumvented the issue by using a WIX setup (you are able to run programs before and afterwards that are not present on the disk, but in the GAC, which is very nice; We deleted the install-directory that way by running a C# deletion-program leaving no trace of the game whatsoever).  
-http://www.codeproject.com/Articles/29961/Shadow-Copying-of-Applications  
-   
-###### Repositioning The Cursor
+
+* [**CodeProject - Shadow-Copying**](http://www.codeproject.com/Articles/29961/Shadow-Copying-of-Applications)
+
+#### Repositioning The Cursor
 You want to reposition or clamp the windows cursor to or within a window?  
 On a multi-monitor setup you should prevent the mouse cursor from leaving the monitor your customer is playing on. Here you'll find the proper interop-calls (I'm sure you know this site).  
-http://www.pinvoke.net/default.aspx/user32.setcursorpos  
-   
-###### Saving The State of Your Game
+
+* [**PInvoke.net**](http://www.pinvoke.net/default.aspx/user32.setcursorpos)
+
+#### Saving The State of Your Game
 You want to create a save-game?  
-This is a very quick and elegant method to accomplish this by using XML.  
-http://stackoverflow.com/questions/3723287/what-is-a-good-example-of-saving-game-data-in-xna-4-0  
-   
+
+* [**Saving Game Data**](http://stackoverflow.com/questions/3723287/what-is-a-good-example-of-saving-game-data-in-xna-4-0) - This is a very quick and elegant method to accomplish this by using XML.  
+
 ###### Get Special Folders
 You want to save your save-game in %appdata%?  
 This page shows you how to get the paths of these special directories regardless of the version of windows your customer is running. Necessary to avoid "no write permission" errors on saving any game-data.  
