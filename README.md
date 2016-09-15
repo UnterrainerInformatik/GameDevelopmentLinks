@@ -35,11 +35,13 @@ I tried to sort every link-table it in a way that should benefit your learning c
   * [Sounds](#sounds)
 
 ## <a href="#link-lists">Link Lists</a>
-Here are other link-lists to browse.    
+Here are other link-lists to browse.  
+
 * [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
 
-## Tutorial Sites 
+## <a href="#tutorial-sites">Tutorial Sites</a>
 No specific order.  
+
 * [**Shawn Hargreave's Blog**](http://blogs.msdn.com/b/shawnhar/) - This is a must-read for every XNA developer. The blog of the Master himself.
 * [**XNAdevelopment**](http://www.xnadevelopment.com/tutorials.shtml) - Great beginners tutorials around XNA game development.
 * [**Catalin Zima's Blog**](http://www.catalinzima.com) - You should all know this one (and you will, I promise). Good examples. I would say that most of the content in here is for the advanced beginner.
@@ -50,14 +52,16 @@ No specific order.
 * [**Threading in C#**](http://www.albahari.com/threading/) - A must-read for every programmer.
 * [**XNA Game Tutorials**](http://xnatd.blogspot.co.at/) - Some XNA game tutorials (2D collision, etc…)
    
-## Lookup Tables 
+## <a href="#lookup-tables">Lookup Tables</a>
 This section contains tables that I found useful during game-development.  
+
 * [**Color Charts**](http://www.kyleschouviller.com/xna/xna-color-charts/) - You want to set a color, but you can't see it?  
 This site has proven most useful for me. There is not a single day that I don't visit it. It contains all the named colors you may use directly in XNA (or windows respectively), sorted the way you want.  
 He has some more stuff going on at his blog, but frankly I didn't have the time to look into it.  
    
-## Mathematics And Stuff 
-This section contains articles about mathematical problems. You can't do without.
+## <a href="#mathematics-and-stuff">Mathematics And Stuff</a>
+This section contains articles about mathematical problems. You can't do without.  
+
 * [**Trajectory Calculations**](http://stackoverflow.com/questions/966935/trajectory-math-c-sharp) - Want your bullet to fly the right way?  These links show you how to do the necessary math for a 3D trajectory.
 * [**Curve-Path**](http://stackoverflow.com/questions/3273396/animate-sprite-along-a-curve-path-in-xna)
 * [**Ballistic Trajectory**](http://www.gamedev.net/topic/333044-does-anybody-have-a-simple-ballistic-trajectory-algorithm-i-can-use/)
@@ -71,10 +75,10 @@ This is a very interesting and helpful technique (and straight forward).
 * [**And another tutorial on the SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - Great diagrams. Nice read.
 * [**SAT - Explained**](http://www.dyn4j.org/2010/01/sat/) - And another one. You should be able to tell that this one is important from the number of articles here. This one has nice diagrams and a really good explanation.
 
-## Programming Guides 
+## <a href="#programming-guides">Programming Guides</a>
 This section contains tips about how to structure your programs or how to achieve certain tasks necessary for game-deployment.
 
-### General
+### <a href="#general">General</a>
 * [**Shadow-Copying of applications**](http://www.codeproject.com/Articles/29961/Shadow-Copying-of-Applications) - You want your installer to delete itself in windows?  You might come to a point where you'll end up writing your setup or updating your application, where you want to unload a program, that is currently running. In general that's not easily possible, but this project might help. We circumvented the issue by using a WIX setup (you are able to run programs before and afterwards that are not present on the disk, but in the GAC, which is very nice; We deleted the install-directory that way by running a C# deletion-program leaving no trace of the game whatsoever).
 * [**Repositioning the cursor**](http://www.pinvoke.net/default.aspx/user32.setcursorpos) - You want to reposition or clamp the windows cursor to or within a window?  On a multi-monitor setup you should prevent the mouse cursor from leaving the monitor your customer is playing on. Here you'll find the proper interop-calls (I'm sure you know this site).
 * [**Saving the state of your game**](http://stackoverflow.com/questions/3723287/what-is-a-good-example-of-saving-game-data-in-xna-4-0) - You want to create a save-game?  This is a very quick and elegant method to accomplish this by using XML.  
@@ -83,15 +87,15 @@ This section contains tips about how to structure your programs or how to achiev
 * [**'Non-Blocking' synchronization**](http://www.albahari.com/threading/part4.aspx) - You want your code synchronized without blocking waits?  This is the premier-league of multi-threaded-programming. It's very difficult and subtle. Fasten your seatbelts, you're in for some ride.
 * [**Decompress DXT textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
 
-### AI
+### <a href="#ai">AI</a>
 * [**Path-Finding**](http://www.codeproject.com/Articles/5758/Path-finding-in-C) - You want your hero to find the right way?  This is a good implementation of the A* Algorithm. You have to modify it of course, because the garbage collector would kill you in no time, but it's a good starting point.  
 
-### XNA
+### <a href="#xna">XNA</a>
 * [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?  This is a great help when searching for a way to get things done the right way. Many examples.  
 * [**Getting a list of supported display modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports?  This one is very simple. You just ask XNA and you'll get what you want.  
 * [**2D camera with zoom and rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?  This is a tutorial on how to implement a proper camera for a 2D game.  
 
-### Graphics And Effects
+### <a href="#graphics-and-effects">Graphics And Effects</a>
 * [**Using shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?  Then this site is a good place to start.  
 * [**3D model drawing guide**](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/) - You want to draw a 3D model in XNA?  This guide shows, step by step, how to draw a mesh in XNA. Nicely done, thank you very much.  
 * [**2D circles and lines**](http://xboxforums.create.msdn.com/forums/p/7414/200025.aspx) - Want to draw 2D using XNA?Well. Then you're in for a treat!  It's impossible to do that without completely destroying the performance of your game. But since you're inevitably sitting on a high-performance-graphics-workhorse already, you may draw 3D as well. These links show you how.
@@ -103,47 +107,48 @@ This section contains tips about how to structure your programs or how to achiev
 * [**The half-pixel offset**](http://drilian.com/2008/11/25/understanding-half-pixel-and-half-texel-offsets/) - In XNA or MonoGame driven games you will see a Vector(.5f, .5f) added on a projection matrix sometimes. Here is why.
 * [**And another one on the half-pixel**](https://msdn.microsoft.com/en-us/library/windows/desktop/bb219690(v=vs.85).aspx) - This is Microsofts explanation for it.
 
-### Spatial Partitioning
+### <a href="#spatial-partitioning">Spatial Partitioning</a>
 * [**Spatial Partitioning**](https://en.wikipedia.org/wiki/Space_partitioning) - Spatial Partitioning - an overview.
 * [**CollisionGrid**](https://github.com/UnterrainerInformatik/collisiongrid/blob/master/README.md) - This is the way to go for evenly distributed objects in a small 2D space.
 * [**Quadtree**](https://en.wikipedia.org/wiki/Quadtree) - This is the way to go for unevenly distributed objects in a 2D space.
 * [**Octree**](https://en.wikipedia.org/wiki/Octree) - This is the way to go for unevenly distributed objects in a 3D space.
 
-### HLSL Shaders
+### <a href="#hlsl-shaders">HLSL Shaders</a>
 * [**Graphics Pipeline Diagram**](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series3/HLSL_introduction.php) - You are stuck programming your shader and don't know what happens and when?  This is a very popular site about XNA game development in general. This particular page contains a very useful diagram of the graphics rendering pipeline, that may lighten things up a bit during dark, non-comprehending times (you will have that, I promise).  
 * [**HLSL language reference**](http://msdn.microsoft.com/en-us/library/windows/desktop/ff471376(v=vs.85).aspx) - Want to know how HLSL works?  This is Microsoft's HLSL reference. Nothing more, nothing less.  
 * [**Wiggle Effect**](http://digitalerr0r.wordpress.com/2009/04/22/xna-shader-programming-tutorial-9-post-process-wiggle/) - Want your background to wiggle?  Then this tutorial is for you. Presented to you by digitalerr0r, a great site for HLSL tutorials.  
 * [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?  This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
 * [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.
 
-### Audio
+### <a href="#audio">Audio</a>
 * [**XACT audio tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
 * [**Attenuation / Doppler pitch shifting in XACT**](http://msdn.microsoft.com/en-us/library/dd231913.aspx) - You want your close sprites to be louder than the ones far away?  Very elaborate Microsoft tutorial on creating attenuation and doppler-pitch-shifting using XACT. Nice, step by step and many screenshots.  
 
-## Components
-This stuff here is ripped from our game. For you to take and use as you like.
+## <a href="#components">Components</a>
+This stuff here is ripped from our game. For you to take and use as you like.  
+
 * [**Object Pool**](https://gist.github.com/guFalcon/39a24c1c0bba644a2ba3e03f53601632) - This is a lock-free object pool. One of the integral parts of a game-engines.
 * [**Collision Grid**](https://github.com/UnterrainerInformatik/collisiongrid) - Used in the broad-phase of collision detection. Faster than a Quad-Tree. Description is inside.
 * [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
 * [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
 * [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
 
-## Libraries
+## <a href="#libraries">Libraries</a>
 Here you find game-engines, extensions, etc.
 
-### Game Engines
+### <a href="#game-engines">Game Engines</a>
 * [**MonoGame**](http://www.monogame.net/) - XNA continued!  By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
 * [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
 * [**Nez**](https://github.com/prime31/Nez) - Another great extension library. Very comprehensive.
 
-### Networking
+### <a href="#networking">Networking</a>
 * [**Lidgren**](https://github.com/lidgren/lidgren-network-gen3) - One of the major players when it comes to connecting your game-clients. Definitely worth a look.
 * [**RakNet**](https://github.com/OculusVR/RakNet) - One of the major players as well.
 
-### Connectors
+### <a href="#connectors">Connectors</a>
 * [**Steamworks.NET**](https://github.com/rlabrecque/Steamworks.NET) - A .NET wrapper for the SteamWorks API.
 
-## Tools
+## <a href="#tools">Tools</a>
 Build tools, deployment tools, etc.
 
 * [**ProtoBuild**](https://protobuild.org/) - If you wanna do cross-platform development this tool will help you to keep your project-files in order.
@@ -151,21 +156,24 @@ Build tools, deployment tools, etc.
 * [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?  When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
 * [**DXT Compression**](http://code.google.com/p/libsquish/) - You want to compress the textures of your game on your own?  Normally you'd use the content-loader-pipeline of XNA (don't fear; the content-loader-pipeline does almost everything automatically), but if you can't use it, then you'll be stuck with this when you're trying to get compressed textures to your graphics-card.  
 
-## Artistic Material 
+## <a href="#artistic-material">Artistic Material</a>
 All the sites I link to in this paragraph contain "free for commercial use" material, although they may contain non-free material as well. It's your responsibility to check before you use it.  
 You won't be able to dodge the fight with the even or odd license when dealing with creative content, so you might as well get over it.  
 
-### Graphics
+### <a href="#graphics">Graphics</a>
 You want a sky-, grass- or other texture? These sites contain, besides other stuff, free-for-commercial-use textures.  
+
 * [http://www.noctua-graphics.de/deutsch/fraset_d.htm](http://www.noctua-graphics.de/deutsch/fraset_d.htm)  
 * [http://telias.free.fr/](http://telias.free.fr/)  
 * [http://www.cgtextures.com/](http://www.cgtextures.com/)  
 
-### Fonts
+### <a href="#fonts">Fonts</a>
 You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  
+
 * [http://www.fontsquirrel.com](http://www.fontsquirrel.com)
 
-### Sounds
+### <a href="#sounds">Sounds</a>
 You've got no sound yet?These sites contain, besides other stuff, free-for-commercial-use samples.  
+
 * [http://www.mediacollege.com/downloads/sound-effects/](http://www.mediacollege.com/downloads/sound-effects/)
 * [http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml](http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml)
