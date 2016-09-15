@@ -10,8 +10,8 @@ I tried to sort every link-table it in a way that should benefit your learning c
 **If you want to contribute just fork this repo, make changes and then a pull request.**  
 ***Contributions are welcome!***
 
-# Contents
-* [Theory](#theory)
+# Table of Contents
+> * [Theory](#theory)
   * [Link Lists](#link-lists)
   * [Tutorial Sites](#tutorial-sites)
   * [Lookup Tables](#lookup-tables)
