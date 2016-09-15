@@ -34,7 +34,7 @@ I tried to sort every link-table it in a way that should benefit your learning c
   * [Fonts](#fonts)
   * [Sounds](#sounds)
 
-## Link Lists
+## <a href="#link-lists">Link Lists</a>
 Here are other link-lists to browse.    
 * [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
 
