@@ -157,15 +157,15 @@ You won't be able to dodge the fight with the even or odd license when dealing w
 
 ### Graphics
 You want a sky-, grass- or other texture? These sites contain, besides other stuff, free-for-commercial-use textures.  
-* http://www.noctua-graphics.de/deutsch/fraset_d.htm  
-* http://telias.free.fr/  
-* http://www.cgtextures.com/  
+* [http://www.noctua-graphics.de/deutsch/fraset_d.htm](http://www.noctua-graphics.de/deutsch/fraset_d.htm)  
+* [http://telias.free.fr/](http://telias.free.fr/)  
+* [http://www.cgtextures.com/](http://www.cgtextures.com/)  
 
 ### Fonts
 You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  
-* http://www.fontsquirrel.com
+* [http://www.fontsquirrel.com](http://www.fontsquirrel.com)
 
 ### Sounds
 You've got no sound yet?These sites contain, besides other stuff, free-for-commercial-use samples.  
-* http://www.mediacollege.com/downloads/sound-effects/
-* http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml
+* [http://www.mediacollege.com/downloads/sound-effects/](http://www.mediacollege.com/downloads/sound-effects/)
+* [http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml](http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml)
