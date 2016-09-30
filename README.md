@@ -42,6 +42,7 @@ I tried to sort every link-table it in a way that should benefit your learning c
 Here are other link-lists to browse.  
 
 * [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
+* [**The Big List Of Indie Game Marketing**](http://www.pixelprospector.com/the-big-list-of-indie-game-marketing/) - On this page you will find a collection of handpicked articles about indie game marketing.
 
 ## Tutorial Sites
 No specific order.  
@@ -59,25 +60,25 @@ No specific order.
 ## Lookup Tables
 This section contains tables that I found useful during game-development.  
 
-* [**Color Charts**](http://www.kyleschouviller.com/xna/xna-color-charts/) - You want to set a color, but you can't see it?  
-This site has proven most useful for me. There is not a single day that I don't visit it. It contains all the named colors you may use directly in XNA (or windows respectively), sorted the way you want.  
-He has some more stuff going on at his blog, but frankly I didn't have the time to look into it.  
+* [**Color Charts**](http://www.kyleschouviller.com/xna/xna-color-charts/) - You want to set a color, but you can't see it?  This site has proven most useful for me. There is not a single day that I don't visit it. It contains all the named colors you may use directly in XNA (or windows respectively), sorted the way you want.  He has some more stuff going on at his blog, but frankly I didn't have the time to look into it.  
    
 ## Mathematics And Stuff
 This section contains articles about mathematical problems. You can't do without.  
 
 * [**Trajectory Calculations**](http://stackoverflow.com/questions/966935/trajectory-math-c-sharp) - Want your bullet to fly the right way?  These links show you how to do the necessary math for a 3D trajectory.
-* [**Curve-Path**](http://stackoverflow.com/questions/3273396/animate-sprite-along-a-curve-path-in-xna)
+* [**Solving Ballistic Trajectories**](https://blog.forrestthewoods.com/solving-ballistic-trajectories-b0165523348c#.pz7p5pej7) - Nice article that contains all the math and explains it very well. Features a GitHub repo containing all the code.
 * [**Ballistic Trajectory**](http://www.gamedev.net/topic/333044-does-anybody-have-a-simple-ballistic-trajectory-algorithm-i-can-use/)
+* [**Curve-Path**](http://stackoverflow.com/questions/3273396/animate-sprite-along-a-curve-path-in-xna)
 * [**Calculate a bounce-angle**](http://stackoverflow.com/questions/573084/how-to-calculate-bounce-angle) - Want your ball to bounce off the wall?  This StackOverflow topic shows you how to do the necessary math.  
 * [**Collision Detection Overview in XNA**](http://msdn.microsoft.com/en-us/library/bb313876%28v=xnagamestudio.20%29.aspx) - You want the monster to die, when you hit it?  This is a good and very general overview. It describes the procedure using XNA-datastructures (which isn't always the best choice), but I think that this is a "must read".  
 * [**Line Intersection**](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2) - You have intersecting lines but you don't know the intersection point?  Helpful formulas when wanting to know the intersection-point of lines in general.  
 * [**Intersection Tests**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php?page=1) - You want to know the point where the bullet hit the plane?  This is THE site containing an abundance of intersection tests for various geometric primitives. Must read. Thank you very much Miguel Gomez.  
 * [**Wiki-page for SAT**](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem) - Good explanation with some helpful diagrams.
-* [**Separating Axis Theorem (SAT)**](http://www.metanetsoftware.com/technique/tutorialA.html) - You want to know, if the ray hit the polygon?  By the way: AABB means Axis-Aligned-Bounding-Box.
-This is a very interesting and helpful technique (and straight forward).
+* [**Separating Axis Theorem (SAT)**](http://www.metanetsoftware.com/technique/tutorialA.html) - You want to know, if the ray hit the polygon?  By the way: AABB means Axis-Aligned-Bounding-Box.  This is a very interesting and helpful technique (and straight forward).
 * [**And another tutorial on the SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - Great diagrams. Nice read.
 * [**SAT - Explained**](http://www.dyn4j.org/2010/01/sat/) - And another one. You should be able to tell that this one is important from the number of articles here. This one has nice diagrams and a really good explanation.
+* [**Introduction to A-Star**](http://www.redblobgames.com/pathfinding/a-star/introduction.html) - One of the nicest explainations I've ever read. Interactive too.
+* [**Generating Fantasy Maps**](http://mewo2.com/notes/terrain/) - A site explaining the process of procedurally generating 2D maps with rivers, towns, etc.
 
 ## Programming Guides
 This section contains tips about how to structure your programs or how to achieve certain tasks necessary for game-deployment.
@@ -90,6 +91,8 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Multi CPU usage**](http://www.codeproject.com/Articles/7933/Smart-Thread-Pool#Feature5) - You want to use all of the CPU cores on your customer's machine?  You may want to use .NET's new parallels framework or, if you are stuck with an older .NET framework, write one of your own.
 * [**'Non-Blocking' synchronization**](http://www.albahari.com/threading/part4.aspx) - You want your code synchronized without blocking waits?  This is the premier-league of multi-threaded-programming. It's very difficult and subtle. Fasten your seatbelts, you're in for some ride.
 * [**Decompress DXT textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
+* [**The Guide To Implementing 2D Platformers**](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/) - Avery comprehensive guide covering almost all aspects of such an endeavor.
+* [**Super Nerd Boy**](http://meyermike.com/wp/?p=160) - Mike's Blog about the experience of making a 2D platformer hero jump the right way.
 
 ### AI
 * [**Path-Finding**](http://www.codeproject.com/Articles/5758/Path-finding-in-C) - You want your hero to find the right way?  This is a good implementation of the A* Algorithm. You have to modify it of course, because the garbage collector would kill you in no time, but it's a good starting point.  
@@ -110,6 +113,11 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Depth-Sorting sprites**](https://blogs.msdn.microsoft.com/shawnhar/2009/02/18/depth-sorting-alpha-blended-objects/) - Shawn Hargreaves himself on how to order your sprites before drawing.
 * [**The half-pixel offset**](http://drilian.com/2008/11/25/understanding-half-pixel-and-half-texel-offsets/) - In XNA or MonoGame driven games you will see a Vector(.5f, .5f) added on a projection matrix sometimes. Here is why.
 * [**And another one on the half-pixel**](https://msdn.microsoft.com/en-us/library/windows/desktop/bb219690(v=vs.85).aspx) - This is Microsofts explanation for it.
+* [**Premultiply Alpha for textures loaded via FromStream**](http://scott-franks.com/xna-gpu-premultiply-alpha/) - This is a snippet of code that leverages the GPU to quickly premultiply alpha for textures that are loaded using Texture2D.FromStream which bypasses the preprocessing provided by the content projects.
+* [**How to Generate Shockingly Good 2D Lightning Effects**](https://gamedevelopment.tutsplus.com/tutorials/how-to-generate-shockingly-good-2d-lightning-effects--gamedev-2681) - Lightning has plenty of uses in games, from background ambience during a storm to the devastating lightning attacks of a sorcerer. In this tutorial, the author explains how to programmatically generate awesome 2D lightning effects: bolts, branches, and even text.
+
+### Networking
+* [**Making Fast-Paced Multiplayer Networked Games is Hard**](http://www.gamasutra.com/blogs/MarkMennell/20140929/226628/Making_FastPaced_Multiplayer_Networked_Games_is_Hard.php) - Fast-paced multiplayer networked games over the Internet are difficult to develop to a standard where the experience is still fun. This post is from a developer talking about the caveats of network programming. Very interesting read. Covers all the basics / intermediate stuff.
 
 ### Spatial Partitioning
 * [**Spatial Partitioning**](https://en.wikipedia.org/wiki/Space_partitioning) - Spatial Partitioning - an overview.
@@ -123,10 +131,14 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Wiggle Effect**](http://digitalerr0r.wordpress.com/2009/04/22/xna-shader-programming-tutorial-9-post-process-wiggle/) - Want your background to wiggle?  Then this tutorial is for you. Presented to you by digitalerr0r, a great site for HLSL tutorials.  
 * [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?  This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
 * [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.
+* [**Deferred Engine Playground**](https://github.com/UncleThomy/DeferredEngine) - Deferred rendering engine written to make developing and understanding custom shaders easier.
 
 ### Audio
 * [**XACT audio tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
 * [**Attenuation / Doppler pitch shifting in XACT**](http://msdn.microsoft.com/en-us/library/dd231913.aspx) - You want your close sprites to be louder than the ones far away?  Very elaborate Microsoft tutorial on creating attenuation and doppler-pitch-shifting using XACT. Nice, step by step and many screenshots.  
+
+### Procedural Generation
+* [**Procedural Dungeon Generation**](http://www.varav.in/posts/2016/05/25/dungeon.html) - An interactive article about automatic dungeon generation. Good stuff.
 
 # Practice
 
@@ -147,6 +159,20 @@ Here you find game-engines, extensions, etc.
 * [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
 * [**Nez**](https://github.com/prime31/Nez) - Another great extension library. Very comprehensive.
 
+### UI
+* [**EmptyKeys**](http://emptykeys.com/) - A very cool multi-platform UI library based on XAML.
+* [**Nuclex**](https://nuclexframework.codeplex.com/) - An older framework written for XNA.
+* [**Nez**](https://github.com/prime31/Nez) - This extension library also contains a port of LibGDX Scene 2D UI.
+* [**Squid**](https://github.com/Roderik11/Squid) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework.
+* [**MonoGame Gui4U**](https://gui4u.codeplex.com/) - Simple. A port from XNA Simple GUI
+* [**Neoforce-Mono**](https://github.com/NeoforceControls/Neoforce-Mono) - A MonoGame port of the NeoForce controls. Pretty comprehensive.
+
+### Shadows
+* [**Penumbra**](https://github.com/discosultan/penumbra) - 2D lighting with soft shadows for MonoGame.
+
+### Map Editors
+* [**Tiled**](http://www.mapeditor.org/) - An awesome editor for all kinds of maps. Freeware and if you search for a MonoGame loader for the maps generated by this beauty, then look for MonoGame.Extended.
+
 ### Networking
 * [**Lidgren**](https://github.com/lidgren/lidgren-network-gen3) - One of the major players when it comes to connecting your game-clients. Definitely worth a look.
 * [**RakNet**](https://github.com/OculusVR/RakNet) - One of the major players as well.
@@ -165,6 +191,11 @@ Build tools, deployment tools, etc.
 ## Artistic Material
 All the sites I link to in this paragraph contain "free for commercial use" material, although they may contain non-free material as well. It's your responsibility to check before you use it.  
 You won't be able to dodge the fight with the even or odd license when dealing with creative content, so you might as well get over it.  
+### Mixed
+* [**Open Game Art**](http://opengameart.org/) - A site containing a rather limited collection of open art, but still, worth a look.
+* [**Gamedeveloper Studio**](http://www.gamedeveloperstudio.com/) - Looking for game assets?  Are you looking for professional quality assets for your games? Would you like to cut your development time in half? This site contains some royalty free content.
+
+Would you prefer not to invest hundreds or thousands of dollars into your title?
 
 ### Graphics
 You want a sky-, grass- or other texture? These sites contain, besides other stuff, free-for-commercial-use textures.  
@@ -172,6 +203,7 @@ You want a sky-, grass- or other texture? These sites contain, besides other stu
 * [http://www.noctua-graphics.de/deutsch/fraset_d.htm](http://www.noctua-graphics.de/deutsch/fraset_d.htm)  
 * [http://telias.free.fr/](http://telias.free.fr/)  
 * [http://www.cgtextures.com/](http://www.cgtextures.com/)  
+* [https://remos.itch.io/isometric-tree-sprites](https://remos.itch.io/isometric-tree-sprites)
 
 ### Fonts
 You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  
