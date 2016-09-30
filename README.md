@@ -117,6 +117,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**How to Generate Shockingly Good 2D Lightning Effects**](https://gamedevelopment.tutsplus.com/tutorials/how-to-generate-shockingly-good-2d-lightning-effects--gamedev-2681) - Lightning has plenty of uses in games, from background ambience during a storm to the devastating lightning attacks of a sorcerer. In this tutorial, the author explains how to programmatically generate awesome 2D lightning effects: bolts, branches, and even text.
 
 ### Networking
+* [**What Every Programmer Needs To Know About Game Networking**](http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/) - Very nice and short article describing the basics of game networking.
 * [**Making Fast-Paced Multiplayer Networked Games is Hard**](http://www.gamasutra.com/blogs/MarkMennell/20140929/226628/Making_FastPaced_Multiplayer_Networked_Games_is_Hard.php) - Fast-paced multiplayer networked games over the Internet are difficult to develop to a standard where the experience is still fun. This post is from a developer talking about the caveats of network programming. Very interesting read. Covers all the basics / intermediate stuff.
 
 ### Spatial Partitioning
