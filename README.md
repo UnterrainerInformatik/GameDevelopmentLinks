@@ -78,6 +78,7 @@ This section contains articles about mathematical problems. You can't do without
 * [**And another tutorial on the SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - Great diagrams. Nice read.
 * [**SAT - Explained**](http://www.dyn4j.org/2010/01/sat/) - And another one. You should be able to tell that this one is important from the number of articles here. This one has nice diagrams and a really good explanation.
 * [**Introduction to A-Star**](http://www.redblobgames.com/pathfinding/a-star/introduction.html) - One of the nicest explainations I've ever read. Interactive too.
+* [**A Star Example**](http://blog.two-cats.com/2014/06/a-star-example/) - A good in-depth introduction and the article points to a few production-ready implementations as well.
 * [**Generating Fantasy Maps**](http://mewo2.com/notes/terrain/) - A site explaining the process of procedurally generating 2D maps with rivers, towns, etc.
 
 ## Programming Guides
