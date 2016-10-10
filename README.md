@@ -142,6 +142,7 @@ This section contains tips about how to structure your programs or how to achiev
 
 ### Procedural Generation
 * [**Procedural Dungeon Generation**](http://www.varav.in/posts/2016/05/25/dungeon.html) - An interactive article about automatic dungeon generation. Good stuff.
+* [**Algorithms for making more interesting mazes**](http://www.gamasutra.com/blogs/HermanTulleken/20161005/282629/Algorithms_for_making_more_interesting_mazes.php) - An article that explains various ways to generate interesting mazes. Nice pictures, nice explanations, no code.
 
 # Practice
 
