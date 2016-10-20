@@ -77,9 +77,6 @@ This section contains articles about mathematical problems. You can't do without
 * [**Separating Axis Theorem (SAT)**](http://www.metanetsoftware.com/technique/tutorialA.html) - You want to know, if the ray hit the polygon?  By the way: AABB means Axis-Aligned-Bounding-Box.  This is a very interesting and helpful technique (and straight forward).
 * [**And another tutorial on the SAT**](http://www.metanetsoftware.com/technique/tutorialA.html) - Great diagrams. Nice read.
 * [**SAT - Explained**](http://www.dyn4j.org/2010/01/sat/) - And another one. You should be able to tell that this one is important from the number of articles here. This one has nice diagrams and a really good explanation.
-* [**Introduction to A-Star**](http://www.redblobgames.com/pathfinding/a-star/introduction.html) - One of the nicest explainations I've ever read. Interactive too.
-* [**A Star Example**](http://blog.two-cats.com/2014/06/a-star-example/) - A good in-depth introduction and the article points to a few production-ready implementations as well.
-* [**XNA Game Studio - Pathfinding**](http://xbox.create.msdn.com/en-US/education/catalog/sample/pathfinding) - The good old article about an A-Star implementation from MS.
 * [**Generating Fantasy Maps**](http://mewo2.com/notes/terrain/) - A site explaining the process of procedurally generating 2D maps with rivers, towns, etc.
 
 ## Programming Guides
@@ -98,6 +95,9 @@ This section contains tips about how to structure your programs or how to achiev
 
 ### AI
 * [**Pathfinding.js**](http://qiao.github.io/PathFinding.js/visual/) - A very nice graphical animated presentation of the most common pathfinding algorithms. Very nice way to visualize the differences.
+* [**Introduction to A-Star**](http://www.redblobgames.com/pathfinding/a-star/introduction.html) - One of the nicest explainations I've ever read. Interactive too.
+* [**A Star Example**](http://blog.two-cats.com/2014/06/a-star-example/) - A good in-depth introduction and the article points to a few production-ready implementations as well.
+* [**XNA Game Studio - Pathfinding**](http://xbox.create.msdn.com/en-US/education/catalog/sample/pathfinding) - The good old article about an A-Star implementation from MS.
 * [**Path-Finding**](http://www.codeproject.com/Articles/5758/Path-finding-in-C) - You want your hero to find the right way?  This is a good implementation of the A-Star Algorithm. You have to modify it of course, because the garbage collector would kill you in no time, but it's a good starting point.
 * [**A-Star algorithm implementation in C#**](http://www.codeproject.com/Articles/15307/A-algorithm-implementation-in-C) - A CodeProject article explaining much about the A-Star algorithm and has a production-ready implementation to download.
 * [**Shortest Path**](https://harablog.wordpress.com/2011/09/07/jump-point-search/) - A nice explanation of the Jump-Point-Search algorithm along with illustrations.
