@@ -8,7 +8,7 @@ Let me mention that I didn't record those links in any particular order and that
 I tried to sort every link-table it in a way that should benefit your learning curve (most complex subjects last).  
 
 **If you want to contribute just fork this repo, make changes and then a pull request.**  
-***Contributions are welcome!***
+***Contributions are welcome!***  
 **Don't forget to star this repo.**  
 
 # Table of Contents
