@@ -226,3 +226,4 @@ You've got no sound yet?These sites contain, besides other stuff, free-for-comme
 
 * [http://www.mediacollege.com/downloads/sound-effects/](http://www.mediacollege.com/downloads/sound-effects/)
 * [http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml](http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml)
+* [**SoundImage**](http://soundimage.org/) - Very large and cool library of original music-pieces and sounds all licensed under a public license that only reqires proper attribution as stated on the About-page 'Section 3 – License Conditions.'. It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work.
