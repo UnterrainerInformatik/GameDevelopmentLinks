@@ -9,6 +9,7 @@ I tried to sort every link-table it in a way that should benefit your learning c
 
 **If you want to contribute just fork this repo, make changes and then a pull request.**  
 ***Contributions are welcome!***
+**Don't forget to star this repo.**  
 
 # Table of Contents
 > * [Theory](#theory)
