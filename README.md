@@ -221,6 +221,7 @@ You want a sky-, grass- or other texture? These sites contain, besides other stu
 You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  
 
 * [http://www.fontsquirrel.com](http://www.fontsquirrel.com)
+* [http://www.1001fonts.com](http://www.1001fonts.com)
 
 ### Sounds
 You've got no sound yet?These sites contain, besides other stuff, free-for-commercial-use samples.  
