@@ -175,7 +175,7 @@ Here you find game-engines, extensions, etc.
 * [**EmptyKeys**](http://emptykeys.com/) - A very cool multi-platform UI library based on XAML.
 * [**Nuclex**](https://nuclexframework.codeplex.com/) - An older framework written for XNA.
 * [**Nez**](https://github.com/prime31/Nez) - This extension library also contains a port of LibGDX Scene 2D UI.
-* [**Squid**](https://github.com/Roderik11/Squid) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework.
+* [**Squid**](https://github.com/Roderik11/Squid) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework. Squid is free and maintained by [IONSTAR Studios](http://www.ionstar.org/?page_id=4).
 * [**MonoGame Gui4U**](https://gui4u.codeplex.com/) - Simple. A port from XNA Simple GUI
 * [**Neoforce-Mono**](https://github.com/NeoforceControls/Neoforce-Mono) - A MonoGame port of the NeoForce controls. Pretty comprehensive.
 
