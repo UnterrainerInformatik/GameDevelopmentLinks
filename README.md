@@ -200,9 +200,38 @@ Build tools, deployment tools, etc.
 * [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?  When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
 * [**DXT Compression**](http://code.google.com/p/libsquish/) - You want to compress the textures of your game on your own?  Normally you'd use the content-loader-pipeline of XNA (don't fear; the content-loader-pipeline does almost everything automatically), but if you can't use it, then you'll be stuck with this when you're trying to get compressed textures to your graphics-card.  
 
+## Legal Stuff, Licenses
+One important thing: When searching for legal advice concerning licenses you'll be pretty much out of luck. Most of the time people tell you that they won't give 'legal advice' since the legal ramifications resulting from such an advice are just too awful.
+So I won't do that either. You'll have to read for yourself and don't just take my word for it.
+So, for what it's worth, here are some useful links and the comments are just my humble opinion.
+
+* [**Comparison of free and open-source software licenses**](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses) - A very nice wiki-article with a nice table. For a quick lookup.
+* [**Top 10 Copyright Myths**](http://www.copyrightservice.co.uk/copyright/copyright_myths) - A text from the UK Copyright Service. Thx to MrValentine from the MonoGame boards for finding it.
+
+### Copyright
+If you'd like to make money with your game, these licenses here are your friends. They allow you to use the code / asset / whatever, retain the original license, maybe do some sort of attribution of the original author, but don't prohibit you selling your work for money.
+
+* [**Copyright**](https://en.wikipedia.org/wiki/Copyright) - Explanation of copyright and waht it's used for.
+* [**Unlicense**](http://unlicense.org/) - Free for everything, including commercial use.
+* [**MIT License**](https://en.wikipedia.org/wiki/MIT_License) - Also completely free. But don't remove the license.
+* [**GNU LGPL**](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A little less permissive as the MIT license, but is not copyleft as its big brother the GPL.
+* [**Apache License**](https://en.wikipedia.org/wiki/Apache_License) - Free for commercial use as far as I know.
+* [**BSD Licenses**](https://en.wikipedia.org/wiki/BSD_licenses) - Free for commercial use as well.
+* [*CC-BY*](https://en.wikipedia.org/wiki/CC-BY) - Free. But don't forget to attribute properly.
+* [**Do What The Fuck You Want To Public License (WTFPL)**](https://en.wikipedia.org/wiki/WTFPL) - I had to put it in here because of... well... you know... it's obvious, isn't it?
+
+### Copyleft
+Essentially and if there is no change in the text of the license in the work you're trying to use, the following licenses are viral.
+If you use code under such a license, you'll have to adapt your license to theirs.
+Not great if you'd like to make some money with your game later on.
+
+* [**Copyleft**](https://en.wikipedia.org/wiki/Copyleft) - Explanation of copyleft and what it's used for.
+* [**GNU GPL**](https://en.wikipedia.org/wiki/GNU_General_Public_License) - Beware: Copyleft.
+* [**CC-BY-SA**](https://en.wikipedia.org/wiki/CC-BY-SA) - Like CC-BY, but copyleft.
+
 ## Artistic Material
 All the sites I link to in this paragraph contain "free for commercial use" material, although they may contain non-free material as well. It's your responsibility to check before you use it.  
-You won't be able to dodge the fight with the even or odd license when dealing with creative content, so you might as well get over it.  
+You won't be able to dodge the fight with the even or odd license-text when dealing with creative content, so you might as well get over it and try to get a grasp on things.  
 ### Mixed
 * [**Open Game Art**](http://opengameart.org/) - A site containing a rather limited collection of open art, but still, worth a look.
 * [**Gamedeveloper Studio**](http://www.gamedeveloperstudio.com/) - Looking for game assets?  Are you looking for professional quality assets for your games? Would you like to cut your development time in half? This site contains some royalty free content.
