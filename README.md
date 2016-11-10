@@ -110,6 +110,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Getting a list of supported display modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports?  This one is very simple. You just ask XNA and you'll get what you want.  
 * [**2D camera with zoom and rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?  This is a tutorial on how to implement a proper camera for a 2D game.  
 * [**Premultiplied Alpha in XNA**](https://blogs.msdn.microsoft.com/shawnhar/2010/04/08/premultiplied-alpha-in-xna-game-studio-4-0/) - The master Shawn Hargreaves himself explains the reason for the premultiplied alpha values in XNA.  
+* [**Premultiplied Alpha**](https://blogs.msdn.microsoft.com/shawnhar/2009/11/06/premultiplied-alpha/) - Another short, but in depht explanation of premultiplied alpha in XNA (and therefore in MonoGame) by Shawn Hargreaves.
 
 ### Graphics And Effects
 * [**Using shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?  Then this site is a good place to start.  
