@@ -4,7 +4,7 @@ This is a collection of useful game-development links including, but not restric
 During the process of developing our game I came across a large variety of websites that I found very useful.  
 This page is a collection of all of them baring a short description. I will check in every month or so and update this list accordingly.  
 Let me mention that I didn't record those links in any particular order and that the sites, I link to in this section, may contain much more than the description of the link suggests. Chances are that I didn't even look through each and every page of every single site before finding it helpful and bookmarking it. These are just the pages I found searching for solutions for the problems in the various fields of interest you inevitably stumble over when starting to write a game.  
-  
+
 I tried to sort every link-table it in a way that should benefit your learning curve (most complex subjects last).  
 
 **If you want to contribute just fork this repo, make changes and then a pull request.**  
@@ -13,29 +13,29 @@ I tried to sort every link-table it in a way that should benefit your learning c
 
 # Table of Contents
 > * [Theory](#theory)
-  * [Link Lists](#link-lists)
-  * [Tutorial Sites](#tutorial-sites)
-  * [Lookup Tables](#lookup-tables)
-  * [Mathematics And Stuff](#mathematics-and-stuff)
-  * [Programming Guides](#programming-guides)
-    * [General](#general)
-    * [AI](#ai)
-    * [XNA](#xna)
-    * [Graphics And Effects](#graphics-and-effects)
-    * [Spatial Partitioning](#spatial-partitioning)
-    * [HLSL Shaders](#hlsl-shaders)
-    * [Audio](#audio)
+* [Link Lists](#link-lists)
+* [Tutorial Sites](#tutorial-sites)
+    * [Lookup Tables](#lookup-tables)
+    * [Mathematics And Stuff](#mathematics-and-stuff)
+    * [Programming Guides](#programming-guides)
+      * [General](#general)
+      * [AI](#ai)
+      * [XNA](#xna)
+      * [Graphics And Effects](#graphics-and-effects)
+      * [Spatial Partitioning](#spatial-partitioning)
+      * [HLSL Shaders](#hlsl-shaders)
+      * [Audio](#audio)
 * [Practice](#practice)
-  * [Components](#components)
-  * [Libraries](#libraries)
-    * [Game Engines](#game-engines)
-    * [Networking](#networking)
-    * [Connectors](#connectors)
-  * [Tools](#tools)
-  * [Artistic Material](#artistic-material)
-    * [Graphics](#graphics)
-    * [Fonts](#fonts)
-    * [Sounds](#sounds)
+    * [Components](#components)
+    * [Libraries](#libraries)
+      * [Game Engines](#game-engines)
+      * [Networking](#networking)
+      * [Connectors](#connectors)
+    * [Tools](#tools)
+    * [Artistic Material](#artistic-material)
+      * [Graphics](#graphics)
+      * [Fonts](#fonts)
+      * [Sounds](#sounds)
 
 # Theory
 
@@ -57,12 +57,12 @@ No specific order.
 * [**RB Whitaker's Wiki**](http://rbwhitaker.wikidot.com/xna-tutorials) - Extremely versatile. Covers almost every aspect of XNA game development. Many thanks.
 * [**Threading in C#**](http://www.albahari.com/threading/) - A must-read for every programmer.
 * [**XNA Game Tutorials**](http://xnatd.blogspot.co.at/) - Some XNA game tutorials (2D collision, etc…)
-   
+
 ## Lookup Tables
 This section contains tables that I found useful during game-development.  
 
 * [**Color Charts**](http://www.kyleschouviller.com/xna/xna-color-charts/) - You want to set a color, but you can't see it?  This site has proven most useful for me. There is not a single day that I don't visit it. It contains all the named colors you may use directly in XNA (or windows respectively), sorted the way you want.  He has some more stuff going on at his blog, but frankly I didn't have the time to look into it.  
-   
+
 ## Mathematics And Stuff
 This section contains articles about mathematical problems. You can't do without.  
 
@@ -145,6 +145,8 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?  This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
 * [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.
 * [**Deferred Engine Playground**](https://github.com/UncleThomy/DeferredEngine) - Deferred rendering engine written to make developing and understanding custom shaders easier.
+* [**ShaderFrog**](http://shaderfrog.com/) - A online web-based shader editor providing WYSIWYG. Nice project.
+* [**WPF Shader Effects Library**](http://wpffx.codeplex.com/) - This one contains many cool effect files easy to adopt for your game. It's under the Ms-PL license which should be ok as long as you don't publish the source-code. There is a [video](https://channel9.msdn.com/shows/Continuum/WPFFXDemo/) demonstrating the effects along with a narration.
 
 ### Audio
 * [**XACT audio tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
