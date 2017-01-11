@@ -46,6 +46,7 @@ Here are other link-lists to browse.
 
 * [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
 * [**The Big List Of Indie Game Marketing**](http://www.pixelprospector.com/the-big-list-of-indie-game-marketing/) - On this page you will find a collection of handpicked articles about indie game marketing.
+* [**Useful MonoGame Related Links**](http://community.monogame.net/t/useful-monogame-related-links-u-mg-rl/8573) - A nice collection of, as the title states, useful links around and about making games with MonoGame. Maintained my [MrValentine](http://community.monogame.net/users/MrValentine/activity).
 
 ## Tutorial Sites
 No specific order.  
