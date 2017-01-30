@@ -198,6 +198,7 @@ Here you find game-engines, extensions, etc.
 * [**Squid**](https://github.com/Roderik11/Squid) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework. Squid is free and maintained by [IONSTAR Studios](http://www.ionstar.org/?page_id=4).
 * [**MonoGame Gui4U**](https://gui4u.codeplex.com/) - Simple. A port from XNA Simple GUI
 * [**Neoforce-Mono**](https://github.com/NeoforceControls/Neoforce-Mono) - A MonoGame port of the NeoForce controls. Pretty comprehensive.
+* [**Myra**](https://github.com/rds1983/Myra) - A nice, albeit very young, GUI framework for MonoGame. Cool if you'd like to contribute.
 
 ### Shadows
 * [**Penumbra**](https://github.com/discosultan/penumbra) - 2D lighting with soft shadows for MonoGame.
