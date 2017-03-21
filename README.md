@@ -134,6 +134,8 @@ This section contains tips about how to structure your programs or how to achiev
 
 ### Networking
 * [**What Every Programmer Needs To Know About Game Networking**](http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/) - Very nice and short article describing the basics of game networking.
+* [**Steamworks.NET integration in MonoGame**](https://github.com/sqrMin1/Steamworks.Net-MonoGame-Integration) - Marcel Härtel has a gem here. A nice repo containing an simple MonoGame project with full Steamworks.NET integration.
+  So if you've wondered how to integrate that library in the best possible way, this is a perfect start.
 * [**Making Fast-Paced Multiplayer Networked Games is Hard**](http://www.gamasutra.com/blogs/MarkMennell/20140929/226628/Making_FastPaced_Multiplayer_Networked_Games_is_Hard.php) - Fast-paced multiplayer networked games over the Internet are difficult to develop to a standard where the experience is still fun. This post is from a developer talking about the caveats of network programming. Very interesting read. Covers all the basics / intermediate stuff.
 * [**Source Multiplayer Networking**](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) - The developers of Valve tell you about how they are handling the many multiplayer-games made with their engine. This article is full of basic stuff you should know about and much hands-on data like how often your server should talk to the clients per second and so on. Nice read.
 
@@ -156,6 +158,9 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Deferred Engine Playground**](https://github.com/UncleThomy/DeferredEngine) - Deferred rendering engine written to make developing and understanding custom shaders easier.
 * [**ShaderFrog**](http://shaderfrog.com/) - A online web-based shader editor providing WYSIWYG. Nice project.
 * [**WPF Shader Effects Library**](http://wpffx.codeplex.com/) - This one contains many cool effect files easy to adopt for your game. It's under the Ms-PL license which should be ok as long as you don't publish the source-code. There is a [video](https://channel9.msdn.com/shows/Continuum/WPFFXDemo/) demonstrating the effects along with a narration.
+* [**Maximizing Depth Buffer Range and Precision**](http://outerra.blogspot.co.at/2012/11/maximizing-depth-buffer-range-and.html) - The guys from Outerra explain some ways to enhance depth-buffering on current hardware.
+* [**Depth Precision**](http://dev.theomader.com/depth-precision/) - Another short article about the precision of a depth buffer and how to enhance it. Features a nice graph-calculator.
+* [**Creating Vast Game Worlds - Avalanche Studios**](http://www.humus.name/Articles/Persson_CreatingVastGameWorlds.pdf) - A nice presentation from the SigGraph 2012 conference featuring many screenshots. They talk about how to make such huge worlds work, the impact on the rendering engine, the scene-design and the player.
 
 ### Audio
 * [**XACT audio tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
