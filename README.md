@@ -46,6 +46,7 @@ Here are other link-lists to browse.
 
 * [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
 * [**The Big List Of Indie Game Marketing**](http://www.pixelprospector.com/the-big-list-of-indie-game-marketing/) - On this page you will find a collection of handpicked articles about indie game marketing.
+* [**Useful MonoGame Related Links**](http://community.monogame.net/t/useful-monogame-related-links-u-mg-rl/8573) - A nice collection of, as the title states, useful links around and about making games with MonoGame. Maintained my [MrValentine](http://community.monogame.net/users/MrValentine/activity).
 
 ## Tutorial Sites
 No specific order.  
@@ -108,12 +109,13 @@ This section contains tips about how to structure your programs or how to achiev
 * [**EpPathFinding**](http://www.codeproject.com/Articles/632424/EpPathFinding-cs-A-Fast-Path-Finding-Algorithm-Jum) - A nice C# library that comes with a demo, is production ready and implements the Jump-Point-Search algorithm.
 * [**SharpNav**](https://github.com/Robmaister/SharpNav) - A complete and portable pathfinding library in C#. MIT license.
 
-### XNA
+### XNA / MonoGame
 * [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?  This is a great help when searching for a way to get things done the right way. Many examples.  
 * [**Getting a list of supported display modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports?  This one is very simple. You just ask XNA and you'll get what you want.  
 * [**2D camera with zoom and rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?  This is a tutorial on how to implement a proper camera for a 2D game.  
 * [**Premultiplied Alpha in XNA**](https://blogs.msdn.microsoft.com/shawnhar/2010/04/08/premultiplied-alpha-in-xna-game-studio-4-0/) - The master Shawn Hargreaves himself explains the reason for the premultiplied alpha values in XNA.  
 * [**Premultiplied Alpha**](https://blogs.msdn.microsoft.com/shawnhar/2009/11/06/premultiplied-alpha/) - Another short, but in depht explanation of premultiplied alpha in XNA (and therefore in MonoGame) by Shawn Hargreaves.
+* [**Creating custom content importers for the MonoGame pipeline**](http://www.dylanwilson.net/creating-custom-content-importers-for-the-monogame-pipeline) - Nice article from our friend Dylan Wilson, who drives the MG.Extended project. Cool read with pictures and code.
 
 ### Graphics And Effects
 * [**Using shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?  Then this site is a good place to start.  
@@ -129,8 +131,12 @@ This section contains tips about how to structure your programs or how to achiev
 * [**And another one on the half-pixel**](https://msdn.microsoft.com/en-us/library/windows/desktop/bb219690(v=vs.85).aspx) - This is Microsofts explanation for it.
 * [**Premultiply Alpha for textures loaded via FromStream**](http://scott-franks.com/xna-gpu-premultiply-alpha/) - This is a snippet of code that leverages the GPU to quickly premultiply alpha for textures that are loaded using Texture2D.FromStream which bypasses the preprocessing provided by the content projects.
 * [**How to Generate Shockingly Good 2D Lightning Effects**](https://gamedevelopment.tutsplus.com/tutorials/how-to-generate-shockingly-good-2d-lightning-effects--gamedev-2681) - Lightning has plenty of uses in games, from background ambience during a storm to the devastating lightning attacks of a sorcerer. In this tutorial, the author explains how to programmatically generate awesome 2D lightning effects: bolts, branches, and even text.
+* [**Geometry Tracks - Tire Tracks Tutorial**](https://kosmonautblog.wordpress.com/2016/07/29/geometry-trails-tire-tracks-tutorial/) - Another fine tutorial by Kosmonautgames about how to generate 2D or 3D trails and tracks. Thank you so much for your great posts.
 * [**Drawing Antialiased Lines With OpenGL**](https://www.mapbox.com/blog/drawing-antialiased-lines/) - Nice article describing a method to generate smooth lines using primitives.
-* [2D Visibility](http://www.redblobgames.com/articles/visibility/) - Nice article explaining 2D visibility with a ray-casting algorithm. You know, the videos of 2D games where you move a lightsource and the visibility-fog moves around in real-time. With examples in Haxe 3, a cross platform compiling language. So it's almost certain that you can use the code directly. MIT-like license. So nice for commercial use as well.
+* [**2D Visibility**](http://www.redblobgames.com/articles/visibility/) - Nice article explaining 2D visibility with a ray-casting algorithm. You know, the videos of 2D games where you move a lightsource and the visibility-fog moves around in real-time. With examples in Haxe 3, a cross platform compiling language. So it's almost certain that you can use the code directly. MIT-like license. So nice for commercial use as well.
+* [**Deferred Rendering In XNA**](http://www.catalinzima.com/xna/tutorials/deferred-rendering-in-xna/) - A nice tutorial from Catalin Zima explaining the basics of deferred rendering providing code examples.
+* [**2D Deferred Lighting**](http://www.soolstyle.com/2010/02/15/2d-deferred-lightning/) - A nice article explaining several 2D lighting techniques. Nice read.
+* [**How to project decals**](http://blog.wolfire.com/2009/06/how-to-project-decals/) - A Wolfire blog post about how to project your decals in 3D.
 
 ### Networking
 * [**What Every Programmer Needs To Know About Game Networking**](http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/) - Very nice and short article describing the basics of game networking.
@@ -153,6 +159,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Specifying Compiler Targets**](https://msdn.microsoft.com/en-us/library/windows/desktop/jj215820(v=vs.85).aspx) - The Microsoft reference for specifying compiler targets in HLSL shaders. A nice list and explanation of the shader-levels supported by DX.  
 * [**Direct3D Feature Levels**](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476876%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396#Overview) - A list and explanation of the various feature levels and of what effects and resources you are allowed to use with each.  
 * [**Wiggle Effect**](http://digitalerr0r.wordpress.com/2009/04/22/xna-shader-programming-tutorial-9-post-process-wiggle/) - Want your background to wiggle?  Then this tutorial is for you. Presented to you by digitalerr0r, a great site for HLSL tutorials.  
+* [**XBR - Filter**](http://community.monogame.net/t/xbr-filter/8653/12) - Nice code for implementing an xBR filter that helps you to upscale your sprites without showing pixels. Thanks to Jjagg and Kosmonautgames for adapting that code for MonoGame.
 * [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?  This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
 * [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.
 * [**Deferred Engine Playground**](https://github.com/UncleThomy/DeferredEngine) - Deferred rendering engine written to make developing and understanding custom shaders easier.
@@ -197,6 +204,8 @@ Here you find game-engines, extensions, etc.
 * [**Squid**](https://github.com/Roderik11/Squid) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework. Squid is free and maintained by [IONSTAR Studios](http://www.ionstar.org/?page_id=4).
 * [**MonoGame Gui4U**](https://gui4u.codeplex.com/) - Simple. A port from XNA Simple GUI
 * [**Neoforce-Mono**](https://github.com/NeoforceControls/Neoforce-Mono) - A MonoGame port of the NeoForce controls. Pretty comprehensive.
+* [**GeonBit.UI**](https://github.com/RonenNess/GeonBit.UI) - Is the UI / HUD system of the *GeonBit* engine, exported as an independent MonoGame extension under the MIT license. It is a MonoGame-based game engine, designed to build 3d dungeon crawler and FPR (first person rogue) games.
+* [**Myra**](https://github.com/rds1983/Myra) - A nice, albeit very young, GUI framework for MonoGame. Cool if you'd like to contribute.
 
 ### Shadows
 * [**Penumbra**](https://github.com/discosultan/penumbra) - 2D lighting with soft shadows for MonoGame.
@@ -215,10 +224,20 @@ Here you find game-engines, extensions, etc.
 Build tools, deployment tools, etc.
 
 * [**ProtoBuild**](https://protobuild.org/) - If you wanna do cross-platform development this tool will help you to keep your project-files in order.
+
 * [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?  A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
+
 * [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?  When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
+
 * [**DXT Compression**](http://code.google.com/p/libsquish/) - You want to compress the textures of your game on your own?  Normally you'd use the content-loader-pipeline of XNA (don't fear; the content-loader-pipeline does almost everything automatically), but if you can't use it, then you'll be stuck with this when you're trying to get compressed textures to your graphics-card.  
+
 * [**Using Platform Specific Libraries from a Platform Agnostic Project**](http://code-jedi.com/blog/post/Using-Platform-Specific-Libraries-from-a-Platform-Agnostic-Project) - We've all had this problem. You want to use a library, but that comes in x86 or x64 flavor and your game should use the 'AnyCPU' target. This article describes how you can switch between the libraries on demand after editing the project file directly. Works like a charm, although it just determines the currently used context and replaces the files accordingly. So you cannot really build an 'AnyCPU' project using this method because the build-result will be fixed to the context used on your computer at compile-time.
+
+  ### Installers / Setup
+
+  * [Inno Setup](http://www.jrsoftware.org/isinfo.php) - This is a nice, free for commercial use, installer that is surprisingly versatile. Not really suited for more complex stuff.
+  * [WiX - Windows Installer XML](http://wixtoolset.org/) - THE gold standard for building setups. Can get pretty messy with more complex stuff though.
+  * [NSIS](http://nsis.sourceforge.net/Main_Page) - That's the installer package MonoGame uses for its installer. Nice to handle, open source.
 
 ## Legal Stuff, Licenses
 One important thing: When searching for legal advice concerning licenses you'll be pretty much out of luck. Most of the time people tell you that they won't give 'legal advice' since the legal ramifications resulting from such an advice are just too awful.
