@@ -14,19 +14,19 @@ I tried to sort every link-table it in a way that should benefit your learning c
 **Don't forget to star this repo.**  
 
 # Table of Contents
-> * [Theory](#theory)
-* [Link Lists](#link-lists)
-* [Tutorial Sites](#tutorial-sites)
-    * [Lookup Tables](#lookup-tables)
-    * [Mathematics And Stuff](#mathematics-and-stuff)
-    * [Programming Guides](#programming-guides)
-      * [General](#general)
-      * [AI](#ai)
-      * [XNA](#xna)
-      * [Graphics And Effects](#graphics-and-effects)
-      * [Spatial Partitioning](#spatial-partitioning)
-      * [HLSL Shaders](#hlsl-shaders)
-      * [Audio](#audio)
+* [Theory](#theory)
+  * [Link Lists](#link-lists)
+  * [Tutorial Sites](#tutorial-sites)
+      * [Lookup Tables](#lookup-tables)
+      * [Mathematics And Stuff](#mathematics-and-stuff)
+      * [Programming Guides](#programming-guides)
+        * [General](#general)
+        * [AI](#ai)
+        * [XNA](#xna)
+        * [Graphics And Effects](#graphics-and-effects)
+        * [Spatial Partitioning](#spatial-partitioning)
+        * [HLSL Shaders](#hlsl-shaders)
+        * [Audio](#audio)
 * [Practice](#practice)
     * [Components](#components)
     * [Libraries](#libraries)
@@ -119,6 +119,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?  This is a great help when searching for a way to get things done the right way. Many examples.  
 * [**Getting a list of supported display modes**](http://blog.gallusgames.com/xna/getting-a-list-of-supported-display-modes-in-xna) - You want to know the resolutions your client's machine supports?  This one is very simple. You just ask XNA and you'll get what you want.  
 * [**2D camera with zoom and rotation**](http://www.david-amador.com/2009/10/xna-camera-2d-with-zoom-and-rotation/) - You want to write a platformer?  This is a tutorial on how to implement a proper camera for a 2D game.  
+* [**Beware of transparent pixels**](http://www.adriancourreges.com/blog/2017/05/09/beware-of-transparent-pixels/) - Another nice, XNA agnostic explanation about why to use premultiplied alpha and what is bound to happen if you don't.
 * [**Premultiplied Alpha in XNA**](https://blogs.msdn.microsoft.com/shawnhar/2010/04/08/premultiplied-alpha-in-xna-game-studio-4-0/) - The master Shawn Hargreaves himself explains the reason for the premultiplied alpha values in XNA.  
 * [**Premultiplied Alpha**](https://blogs.msdn.microsoft.com/shawnhar/2009/11/06/premultiplied-alpha/) - Another short, but in depht explanation of premultiplied alpha in XNA (and therefore in MonoGame) by Shawn Hargreaves.
 * [**Creating custom content importers for the MonoGame pipeline**](http://www.dylanwilson.net/creating-custom-content-importers-for-the-monogame-pipeline) - Nice article from our friend Dylan Wilson, who drives the MG.Extended project. Cool read with pictures and code.
