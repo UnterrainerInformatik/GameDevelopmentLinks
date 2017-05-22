@@ -147,6 +147,7 @@ This section contains tips about how to structure your programs or how to achiev
 
 ### Networking
 * [**What Every Programmer Needs To Know About Game Networking**](http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/) - Very nice and short article describing the basics of game networking.
+* [**Lidgren.Network – an introduction to networking in C# games**](http://genericgamedev.com/tutorials/lidgren-network-an-introduction-to-networking-in-csharp-games/) - A nice article that walks you through a simple client and server written with Lidgren.
 * [**Steamworks.NET integration in MonoGame**](https://github.com/sqrMin1/Steamworks.Net-MonoGame-Integration) - Marcel Härtel has a gem here. A nice repo containing an simple MonoGame project with full Steamworks.NET integration.
   So if you've wondered how to integrate that library in the best possible way, this is a perfect start.
 * [**Making Fast-Paced Multiplayer Networked Games is Hard**](http://www.gamasutra.com/blogs/MarkMennell/20140929/226628/Making_FastPaced_Multiplayer_Networked_Games_is_Hard.php) - Fast-paced multiplayer networked games over the Internet are difficult to develop to a standard where the experience is still fun. This post is from a developer talking about the caveats of network programming. Very interesting read. Covers all the basics / intermediate stuff.
