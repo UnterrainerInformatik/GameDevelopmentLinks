@@ -202,19 +202,20 @@ This stuff here is either directly ripped from our game or from other libraries.
 Here you find game-engines, extensions, etc.
 
 ### Game Engines
-* [**MonoGame**](http://www.monogame.net/) - XNA continued!  By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
-* [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
-* [**Nez**](https://github.com/prime31/Nez) - Another great extension library. Very comprehensive.
+* [**MonoGame**](http://www.monogame.net/) ![Github stars](https://img.shields.io/github/stars/MonoGame/MonoGame.svg) - XNA continued!  By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
+* [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) ![Github stars](https://img.shields.io/github/stars/craftworkgames/MonoGame.Extended.svg) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
+* [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg)- Another great extension library. Very comprehensive.
+* [**Corund**](https://github.com/impworks/corund) ![Github stars](https://img.shields.io/github/stars/impworks/corund.svg) - Corund is a 2D game engine for mobile games, based on Monogame (open implementation of XNA). Inherit from a variety of existing objects and behaviours to easily compose a game or a prototype.
 
 ### UI
 * [**EmptyKeys**](http://emptykeys.com/) - A very cool multi-platform UI library based on XAML.
 * [**Nuclex**](https://nuclexframework.codeplex.com/) - An older framework written for XNA.
-* [**Nez**](https://github.com/prime31/Nez) - This extension library also contains a port of LibGDX Scene 2D UI.
-* [**Squid**](https://github.com/Roderik11/Squid) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework. Squid is free and maintained by [IONSTAR Studios](http://www.ionstar.org/?page_id=4).
+* [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg) - This extension library also contains a port of LibGDX Scene 2D UI.
+* [**Squid**](https://github.com/Roderik11/Squid) ![Github stars](https://img.shields.io/github/stars/Roderik11/Squid.svg) - SQUID is an SDK to create user interfaces for games and other 2D/3D realtime applications, using a Retained Mode system. SQUID does not depend on a certain rendering engine, you can use it with any engine you like, on any platform that supports the .NET 2.0 framework. Squid is free and maintained by [IONSTAR Studios](http://www.ionstar.org/?page_id=4).
 * [**MonoGame Gui4U**](https://gui4u.codeplex.com/) - Simple. A port from XNA Simple GUI
-* [**Neoforce-Mono**](https://github.com/NeoforceControls/Neoforce-Mono) - A MonoGame port of the NeoForce controls. Pretty comprehensive.
-* [**GeonBit.UI**](https://github.com/RonenNess/GeonBit.UI) - Is the UI / HUD system of the *GeonBit* engine, exported as an independent MonoGame extension under the MIT license. It is a MonoGame-based game engine, designed to build 3d dungeon crawler and FPR (first person rogue) games.
-* [**Myra**](https://github.com/rds1983/Myra) - A nice, albeit very young, GUI framework for MonoGame. Cool if you'd like to contribute.
+* [**Neoforce-Mono**](https://github.com/NeoforceControls/Neoforce-Mono) ![Github stars](https://img.shields.io/github/stars/NeoforceControls/Neoforce-Mono.svg) - A MonoGame port of the NeoForce controls. Pretty comprehensive.
+* [**GeonBit.UI**](https://github.com/RonenNess/GeonBit.UI) ![Github stars](https://img.shields.io/github/stars/RonenNess/GeonBit.UI.svg) - Is the UI / HUD system of the *GeonBit* engine, exported as an independent MonoGame extension under the MIT license. It is a MonoGame-based game engine, designed to build 3d dungeon crawler and FPR (first person rogue) games.
+* [**Myra**](https://github.com/rds1983/Myra) ![Github stars](https://img.shields.io/github/stars/rds1983/Myra.svg) - A nice, albeit very young, GUI framework for MonoGame. Cool if you'd like to contribute.
 
 ### Shadows / Lighting
 * [**Penumbra**](https://github.com/discosultan/penumbra) - 2D lighting with soft shadows for MonoGame.
