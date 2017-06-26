@@ -60,8 +60,6 @@ No specific order.
 * [**RB Whitaker's Wiki**](http://rbwhitaker.wikidot.com/xna-tutorials) - Extremely versatile. Covers almost every aspect of XNA game development. Many thanks.
 * [**Threading in C#**](http://www.albahari.com/threading/) - A must-read for every programmer.
 * [**XNA Game Tutorials**](http://xnatd.blogspot.co.at/) - Some XNA game tutorials (2D collision, etc…)
-* [**The Darkside of MonoGame**](http://bit.ly/darksideofmonogame/) - New tutorial series delivering both Video and Text tutorials on the latest MonoGame content
-
 
 ## Lookup Tables
 This section contains tables that I found useful during game-development.  
