@@ -198,6 +198,7 @@ This stuff here is either directly ripped from our game or from other libraries.
 * [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
 * [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
 * [**XNA Examples - MonoGame Port**](https://github.com/DDReaper/XNAGameStudio) - An almost complete MonoGame port of the good old XNA examples from MS.
+* [**A Textbox For MonoGame**](https://github.com/UnterrainerInformatik/Monogame-Textbox) - This repository contains an editable, multi-language, event-driven textbox for MonoGame that supports selection, special characters, SHIFT-CTRL combinations with cursor-keys and cut/copy/paste.
 
 ## Libraries
 Here you find game-engines, extensions, etc.
