@@ -264,7 +264,7 @@ So, for what it's worth, here are some useful links and the comments are just my
 ### Copyright
 If you'd like to make money with your game, these licenses here are your friends. They allow you to use the code / asset / whatever, retain the original license, maybe do some sort of attribution of the original author, but don't prohibit you selling your work for money.
 
-* [**Copyright**](https://en.wikipedia.org/wiki/Copyright) - Explanation of copyright and waht it's used for.
+* [**Copyright**](https://en.wikipedia.org/wiki/Copyright) - Explanation of copyright and what it's used for.
 * [**Unlicense**](http://unlicense.org/) - Free for everything, including commercial use.
 * [**MIT License**](https://en.wikipedia.org/wiki/MIT_License) - Also completely free. But don't remove the license.
 * [**GNU LGPL**](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) - A little less permissive as the MIT license, but is not copyleft as its big brother the GPL.
