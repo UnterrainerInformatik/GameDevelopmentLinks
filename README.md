@@ -232,6 +232,7 @@ Here you find game-engines, extensions, etc.
 
 ### Connectors
 * [**Steamworks.NET**](https://github.com/rlabrecque/Steamworks.NET) - A .NET wrapper for the SteamWorks API.
+* [**Facepunch.Steamworks**](https://github.com/Facepunch/Facepunch.Steamworks) - Another popular Steamworks integration, where you can use native C# code (instead of calling functions manually) to communicate with the steam servers.
 
 ## Tools
 Build tools, deployment tools, etc.
