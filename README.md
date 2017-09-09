@@ -200,6 +200,7 @@ This stuff here is either directly ripped from our game or from other libraries.
 * [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
 * [**XNA Examples - MonoGame Port**](https://github.com/DDReaper/XNAGameStudio) - An almost complete MonoGame port of the good old XNA examples from MS.
 * [**A Textbox For MonoGame**](https://github.com/UnterrainerInformatik/Monogame-Textbox) - This repository contains an editable, multi-language, event-driven textbox for MonoGame that supports selection, special characters, SHIFT-CTRL combinations with cursor-keys and cut/copy/paste.
+* [**A Finite State Machine**](https://github.com/UnterrainerInformatik/FiniteStateMachine) - This project implements a Finite-State-Machine (FSM) designed to be used in games. Furthermore it implements even a Stack-Based-FSM (SBFSM). So you may tell it to 'continue with the last state before the active one'. You describe your FSM using a nice and well documented DSL (Domain Specific Language).
 
 ## Libraries
 Here you find game-engines, extensions, etc.
