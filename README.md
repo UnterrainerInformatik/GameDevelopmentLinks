@@ -105,8 +105,11 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Decompress DXT textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
 * [**The Guide To Implementing 2D Platformers**](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/) - Avery comprehensive guide covering almost all aspects of such an endeavor.
 * [**Super Nerd Boy**](http://meyermike.com/wp/?p=160) - Mike's Blog about the experience of making a 2D platformer hero jump the right way.
+* [**The Guide to Implementing 2D Platformers**](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/) - This article is about all the basics you have to consider when implementing a 2D platformer... Tiles, slopes, ladders, bitmasks... Pretty much the works.
+* [**Map Collision Detection And Slope Implementation**](http://www.vermiliontower.com/2017/08/23/map-collision-detection-and-slope-implementation/) - VermillionTower wrote a blog post about his experiences when programming Thornbridge Saga. Nice read. Good tips.
 
 ### AI
+
 * [**Pathfinding.js**](http://qiao.github.io/PathFinding.js/visual/) - A very nice graphical animated presentation of the most common pathfinding algorithms. Very nice way to visualize the differences.
 * [**Introduction to A-Star**](http://www.redblobgames.com/pathfinding/a-star/introduction.html) - One of the nicest explainations I've ever read. Interactive too.
 * [**A Star Example**](http://blog.two-cats.com/2014/06/a-star-example/) - A good in-depth introduction and the article points to a few production-ready implementations as well.
