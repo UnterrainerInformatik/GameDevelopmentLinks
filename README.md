@@ -140,6 +140,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Post processing effects**](http://www.float4x4.net/index.php/2011/02/xna-after-effects-part-1/) - You want a bloom-filter?  This tutorial explains the usage and limitations of such an effect.  
 * [**Dynamic 2D shadows**](http://www.catalinzima.com/samples/12-months-12-samples-2008/dynamic-2d-shadows/) - You want a flashlight in your 2D game?  This is one of the most popular tutorial-sites out there. I cannot thank Catalin enough for his efforts making this site.  
 * [**2D Crepuscular God Rays**](http://xnauk-randomchaosblogarchive.blogspot.fr/2012/10/2d-crepuscular-god-rays.html) - This article covers the topic of doing god-rays in a 2D environment.  
+* [**2D Metaballs in XNA**](http://nullcandy.com/2d-metaballs-in-xna/) - Nice article that explains how to get an evenly distributed surface from particles, like the effects in World of Goo.
 * [**Depth-Sorting sprites**](https://blogs.msdn.microsoft.com/shawnhar/2009/02/18/depth-sorting-alpha-blended-objects/) - Shawn Hargreaves himself on how to order your sprites before drawing.
 * [**The half-pixel offset**](http://drilian.com/2008/11/25/understanding-half-pixel-and-half-texel-offsets/) - In XNA or MonoGame driven games you will see a Vector(.5f, .5f) added on a projection matrix sometimes. Here is why.
 * [**And another one on the half-pixel**](https://msdn.microsoft.com/en-us/library/windows/desktop/bb219690(v=vs.85).aspx) - This is Microsofts explanation for it.
@@ -215,7 +216,12 @@ Here you find game-engines, extensions, etc.
 * [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg)- Another great extension library. Very comprehensive.
 * [**Corund**](https://github.com/impworks/corund) ![Github stars](https://img.shields.io/github/stars/impworks/corund.svg) - Corund is a 2D game engine for mobile games, based on Monogame (open implementation of XNA). Inherit from a variety of existing objects and behaviours to easily compose a game or a prototype.
 
+### Physics
+
+* [**Aether Physics 2D**](https://github.com/tainicom/Aether.Physics2D) - Very nice library from nkast you might know from the MonoGame board. It's a very nicely written 2D collision detection system that sports all possible kinds of stuff like joints, friction, motors, fluid dynamics, buoyancy, and so on...
+
 ### UI
+
 * [**EmptyKeys**](http://emptykeys.com/) - A very cool multi-platform UI library based on XAML.
 * [**Nuclex**](https://nuclexframework.codeplex.com/) - An older framework written for XNA.
 * [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg) - This extension library also contains a port of LibGDX Scene 2D UI.
