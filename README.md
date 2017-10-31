@@ -122,6 +122,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Shortest Path**](https://harablog.wordpress.com/2011/09/07/jump-point-search/) - A nice explanation of the Jump-Point-Search algorithm along with illustrations.
 * [**EpPathFinding**](http://www.codeproject.com/Articles/632424/EpPathFinding-cs-A-Fast-Path-Finding-Algorithm-Jum) - A nice C# library that comes with a demo, is production ready and implements the Jump-Point-Search algorithm.
 * [**SharpNav**](https://github.com/Robmaister/SharpNav) - A complete and portable pathfinding library in C#. MIT license.
+* [**NGraph**](https://github.com/anvaka/ngraph.path) - A fast path finding library for arbitrary graphs. [Play with a demo](https://anvaka.github.io/ngraph.path.demo/) or [watch it](https://www.youtube.com/watch?v=hGeZuIEV6KU) on YouTube.
 
 ### XNA / MonoGame
 * [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?  This is a great help when searching for a way to get things done the right way. Many examples.  
