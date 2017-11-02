@@ -132,6 +132,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Premultiplied Alpha in XNA**](https://blogs.msdn.microsoft.com/shawnhar/2010/04/08/premultiplied-alpha-in-xna-game-studio-4-0/) - The master Shawn Hargreaves himself explains the reason for the premultiplied alpha values in XNA.  
 * [**Premultiplied Alpha**](https://blogs.msdn.microsoft.com/shawnhar/2009/11/06/premultiplied-alpha/) - Another short, but in depht explanation of premultiplied alpha in XNA (and therefore in MonoGame) by Shawn Hargreaves.
 * [**Creating custom content importers for the MonoGame pipeline**](http://www.dylanwilson.net/creating-custom-content-importers-for-the-monogame-pipeline) - Nice article from our friend Dylan Wilson, who drives the MG.Extended project. Cool read with pictures and code.
+* [**Interpolation**](http://sol.gfxile.net/interpolation/) - This nice article, including animated examples, explains the intricacies of the different kinds of interpolation very well. Nice read.
 
 ### Graphics And Effects
 * [**Using shaders**](http://www.xnamag.de/article.php?aid=34) - You want to use shaders and don't know what that is?  Then this site is a good place to start.  
