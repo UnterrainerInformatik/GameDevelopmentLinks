@@ -11,7 +11,10 @@ I tried to sort every link-table it in a way that should benefit your learning c
 
 ***Contributions are welcome!***  
 
-**Don't forget to star this repo.**  
+> **If you like this repo, please don't forget to star it.**
+> **Thank you.**
+
+
 
 # Table of Contents
 * [Theory](#theory)
