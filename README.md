@@ -264,6 +264,10 @@ Build tools, deployment tools, etc.
 
 * [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?  A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
 
+* [**Intel - Graphics Performance Analyzers**](https://software.intel.com/en-us/gpa) - A nice tool to get performance data from your GPU.
+
+* [Renderdoc](https://github.com/baldurk/renderdoc) - A sandalone graphics performance debugging tool. Nice work. Available on GitHub.
+
 * [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?  When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
 
 * [**DXT Compression**](http://code.google.com/p/libsquish/) - You want to compress the textures of your game on your own?  Normally you'd use the content-loader-pipeline of XNA (don't fear; the content-loader-pipeline does almost everything automatically), but if you can't use it, then you'll be stuck with this when you're trying to get compressed textures to your graphics-card.  
