@@ -71,6 +71,7 @@ No specific order.
 This section contains tables that I found useful during game-development.  
 
 * [**Color Charts**](http://www.kyleschouviller.com/xna/xna-color-charts/) - You want to set a color, but you can't see it?  This site has proven most useful for me. There is not a single day that I don't visit it. It contains all the named colors you may use directly in XNA (or windows respectively), sorted the way you want.  He has some more stuff going on at his blog, but frankly I didn't have the time to look into it.  
+* [**File Format Lookup Table**](https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml) - Extremely useful lookup-page for all possible file-formats along with detailled information about them. Thx to AcidFaucent for pointing that one out.  
 
 ## Mathematics And Stuff
 This section contains articles about mathematical problems. You can't do without.  
@@ -310,4 +311,35 @@ Not great if you'd like to make some money with your game later on.
 * [**CC-BY-SA**](https://en.wikipedia.org/wiki/CC-BY-SA) - Like CC-BY, but copyleft.
 
 ## Artistic Material
-All the sites I link to in this p
+All the sites I link to in this paragraph contain "free for commercial use" material, although they may contain non-free material as well. It's your responsibility to check before you use it. 
+You won't be able to dodge the fight with the even or odd license-text when dealing with creative content, so you might as well get over it and try to get a grasp on things.  		
+### Mixed		
+* [**Open Game Art**](http://opengameart.org/) - A site containing a rather limited collection of open art, but still, worth a look.		
+* [**Gamedeveloper Studio**](http://www.gamedeveloperstudio.com/) - Looking for game assets?  Are you looking for professional quality assets for your games? Would you like to cut your development time in half? This site contains some royalty free content.		
+		
+Would you prefer not to invest hundreds or thousands of dollars into your title?		
+		
+### Graphics		
+You want a sky-, grass- or other texture? These sites contain, besides other stuff, free-for-commercial-use textures.  		
+		
+* [http://www.noctua-graphics.de/deutsch/fraset_d.htm](http://www.noctua-graphics.de/deutsch/fraset_d.htm)  		
+* [http://telias.free.fr/](http://telias.free.fr/)  		
+* [http://www.cgtextures.com/](http://www.cgtextures.com/)  		
+* [https://remos.itch.io/isometric-tree-sprites](https://remos.itch.io/isometric-tree-sprites)		
+* [**SoundImage**](http://soundimage.org/) - Very large and cool library of original music-pieces, textures and sounds all licensed under a public license that only reqires proper attribution as stated on the About-page 'Section 3 – License Conditions.'.		
+  Despite the name it contains really great textures (seamless ones as well).		
+  It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work. Please consider donating a small amount of money for all the hard work.		
+* [TreeIt](http://www.evolved-software.com/treeit/treeit) - A nice piece of work from EVOLVED software. Thanks. Procedurally generates 3D trees you are free to use in your games.
+		
+### Fonts		
+You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  		
+		
+* [http://www.fontsquirrel.com](http://www.fontsquirrel.com)		
+* [http://www.1001fonts.com](http://www.1001fonts.com)		
+		
+### Sounds		
+You've got no sound yet?These sites contain, besides other stuff, free-for-commercial-use samples.  		
+		
+* [http://www.mediacollege.com/downloads/sound-effects/](http://www.mediacollege.com/downloads/sound-effects/)		
+* [http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml](http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml)		
+* [**SoundImage**](http://soundimage.org/) - Very large and cool library of original music-pieces, textures and sounds all licensed under a public license that only reqires proper attribution as stated on the About-page 'Section 3 – License Conditions.'. It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work. Please consider donating a small amount of money for all the hard work.
