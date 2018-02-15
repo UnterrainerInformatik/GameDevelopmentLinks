@@ -172,6 +172,8 @@ This section contains tips about how to structure your programs or how to achiev
   So if you've wondered how to integrate that library in the best possible way, this is a perfect start.
 * [**Making Fast-Paced Multiplayer Networked Games is Hard**](http://www.gamasutra.com/blogs/MarkMennell/20140929/226628/Making_FastPaced_Multiplayer_Networked_Games_is_Hard.php) - Fast-paced multiplayer networked games over the Internet are difficult to develop to a standard where the experience is still fun. This post is from a developer talking about the caveats of network programming. Very interesting read. Covers all the basics / intermediate stuff.
 * [**Source Multiplayer Networking**](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) - The developers of Valve tell you about how they are handling the many multiplayer-games made with their engine. This article is full of basic stuff you should know about and much hands-on data like how often your server should talk to the clients per second and so on. Nice read.
+* [**Some Lessons Learned While Developing Age of Empires 1 Definitive Edition**](http://richg42.blogspot.co.at/2018/02/some-lessons-learned-while-developing.html) - Nice list of things learned from programming Age of Empires 1 Definitive Edition concerning networking. Nice read.
+* [**Gaffer On Games**](https://gafferongames.com/) - Nice blog about gaming and networking. Must read if you're making a multiplayer game.
 
 ### Spatial Partitioning
 * [**Spatial Partitioning**](https://en.wikipedia.org/wiki/Space_partitioning) - Spatial Partitioning - an overview.
