@@ -95,6 +95,7 @@ This section contains articles about mathematical problems. You can't do without
 * [**Intersection Tests in 2D**](http://noonat.github.io/intersect/) - A nice overview over the various methods you can do collision detection with, including sweep testing.
 * [**Collision Detection And Response**](http://www.metanetsoftware.com/technique/tutorialA.html) - A very nice article about the separating axis theorem (SAT) used for collision detection. No sweep tests here.
 * [**Simple Intersection Tests For Games**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php) - This is a nice article describing a wide variety of sweep tests, like sphere-plane, sphere-sphere and so on. Contains some code as well.
+* [**Building a Collision Engine Part 1: 2D GJK Collision Detection**](https://hamaluik.com/posts/building-a-collision-engine-part-1-2d-gjk-collision-detection/) - Nice article describing GJK (Gilbert-Johnson-Keerthi) for 2D collision detection (GitHub library with code is [here](https://github.com/FuzzyWuzzie/headbutt)).
 * [**Generating Fantasy Maps**](http://mewo2.com/notes/terrain/) - A site explaining the process of procedurally generating 2D maps with rivers, towns, etc.
 * [**Procedural-Map-Generator**](https://github.com/marukrap/Procedural-Map-Generator) - A nice GitHub project implementing a simple map-generator along with rooms, corridors, etc...
 * [**Island Generator**](http://exupero.org/hazard/post/islands/) - A nice tutorial on how to procedurally generate islands.
