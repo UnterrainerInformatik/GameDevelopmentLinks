@@ -44,7 +44,7 @@ I tried to sort every link-table it in a way that should benefit your learning c
 
 # Theory
 
-## Link Listsa
+## Link Lists
 
 Here are other link-lists to browse.  
 
@@ -66,6 +66,7 @@ No specific order.
 * [**Threading in C#**](http://www.albahari.com/threading/) - A must-read for every programmer.
 * [**XNA Game Tutorials**](http://xnatd.blogspot.co.at/) - Some XNA game tutorials (2D collision, etc…)
 * [**The Darkside of MonoGame**](http://www.youtube.com/c/TheDarksideofMonoGame) - New tutorial series delivering both Video and Text tutorials on the latest MonoGame content
+* [**Basic 2D Platformer Physics**](https://gamedevelopment.tutsplus.com/series/basic-2d-platformer-physics--cms-998) - Nice series by Daniel Branicki.
 
 ## Lookup Tables
 This section contains tables that I found useful during game-development.  
@@ -230,6 +231,7 @@ Here you find game-engines, extensions, etc.
 * [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) ![Github stars](https://img.shields.io/github/stars/craftworkgames/MonoGame.Extended.svg) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
 * [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg)- Another great extension library. Very comprehensive.
 * [**Corund**](https://github.com/impworks/corund) ![Github stars](https://img.shields.io/github/stars/impworks/corund.svg) - Corund is a 2D game engine for mobile games, based on Monogame (open implementation of XNA). Inherit from a variety of existing objects and behaviours to easily compose a game or a prototype.
+* [**Simplex Engine**](https://github.com/lofcz/SimplexRpgEngine) - Free alternative to Game Maker Studio 2, porting and flavoring GML to C#, running on MonoGame.
 
 ### Physics
 
