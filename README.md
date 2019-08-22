@@ -334,7 +334,7 @@ You want a sky-, grass- or other texture? These sites contain, besides other stu
 * [**SoundImage - Eric Matyas**](http://soundimage.org/) - Very large and cool library of original music-pieces, textures and sounds all licensed under a public license that only reqires proper attribution as stated on the About-page 'Section 3 – License Conditions.'.		
   Despite the name it contains really great textures (seamless ones as well).		
   It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work. Please consider donating a small amount of money for all the hard work.		
-* [TreeIt](http://www.evolved-software.com/treeit/treeit) - A nice piece of work from EVOLVED software. Thanks. Procedurally generates 3D trees you are free to use in your games.
+* [**TreeIt**](http://www.evolved-software.com/treeit/treeit) - A nice piece of work from EVOLVED software. Thanks. Procedurally generates 3D trees you are free to use in your games.
 		
 ### Fonts		
 You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  		
@@ -343,7 +343,7 @@ You want to write something on the screen without getting sued?  These sites con
 * [http://www.1001fonts.com](http://www.1001fonts.com)		
 		
 ### Sounds		
-You've got no sound yet?These sites contain, besides other stuff, free-for-commercial-use samples.  		
+You've got no sound yet? These sites contain, besides other stuff, free-for-commercial-use samples.  		
 		
 * [http://www.mediacollege.com/downloads/sound-effects/](http://www.mediacollege.com/downloads/sound-effects/)		
 * [http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml](http://www.partnersinrhyme.com/pirsounds/WEB_DESIGN_SOUNDS_WAV/BUTTONS.shtml)		
