@@ -48,7 +48,7 @@ I tried to sort every link-table it in a way that should benefit your learning c
 
 Here are other link-lists to browse.  
 
-* [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
+* [**Awesome-MonoGame**](https://github.com/aloisdeniel/awesome-monogame) ![Github stars](https://img.shields.io/github/stars/aloisdeniel/awesome-monogame.svg) - This one contains a large list of MonoGame related projects on GitHub. Thx to the awesome Alois Deniel.
 * [**The Big List Of Indie Game Marketing**](http://www.pixelprospector.com/the-big-list-of-indie-game-marketing/) - On this page you will find a collection of handpicked articles about indie game marketing.
 * [**Useful MonoGame Related Links**](http://community.monogame.net/t/useful-monogame-related-links-u-mg-rl/8573) - A nice collection of, as the title states, useful links around and about making games with MonoGame. Maintained my [MrValentine](http://community.monogame.net/users/MrValentine/activity).
 
@@ -98,7 +98,7 @@ This section contains articles about mathematical problems. You can't do without
 * [**Simple Intersection Tests For Games**](http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php) - This is a nice article describing a wide variety of sweep tests, like sphere-plane, sphere-sphere and so on. Contains some code as well.
 * [**Building a Collision Engine Part 1: 2D GJK Collision Detection**](https://hamaluik.com/posts/building-a-collision-engine-part-1-2d-gjk-collision-detection/) - Nice article describing GJK (Gilbert-Johnson-Keerthi) for 2D collision detection (GitHub library with code is [here](https://github.com/FuzzyWuzzie/headbutt)).
 * [**Generating Fantasy Maps**](http://mewo2.com/notes/terrain/) - A site explaining the process of procedurally generating 2D maps with rivers, towns, etc.
-* [**Procedural-Map-Generator**](https://github.com/marukrap/Procedural-Map-Generator) - A nice GitHub project implementing a simple map-generator along with rooms, corridors, etc...
+* [**Procedural-Map-Generator**](https://github.com/marukrap/Procedural-Map-Generator) ![Github stars](https://img.shields.io/github/stars/marukrap/Procedural-Map-Generator.svg) - A nice GitHub project implementing a simple map-generator along with rooms, corridors, etc...
 * [**Island Generator**](http://exupero.org/hazard/post/islands/) - A nice tutorial on how to procedurally generate islands.
 
 ## Programming Guides
@@ -129,8 +129,8 @@ This section contains tips about how to structure your programs or how to achiev
 * [**A-Star algorithm implementation in C#**](http://www.codeproject.com/Articles/15307/A-algorithm-implementation-in-C) - A CodeProject article explaining much about the A-Star algorithm and has a production-ready implementation to download.
 * [**Shortest Path**](https://harablog.wordpress.com/2011/09/07/jump-point-search/) - A nice explanation of the Jump-Point-Search algorithm along with illustrations.
 * [**EpPathFinding**](http://www.codeproject.com/Articles/632424/EpPathFinding-cs-A-Fast-Path-Finding-Algorithm-Jum) - A nice C# library that comes with a demo, is production ready and implements the Jump-Point-Search algorithm.
-* [**SharpNav**](https://github.com/Robmaister/SharpNav) - A complete and portable pathfinding library in C#. MIT license.
-* [**NGraph**](https://github.com/anvaka/ngraph.path) - A fast path finding library for arbitrary graphs. [Play with a demo](https://anvaka.github.io/ngraph.path.demo/) or [watch it](https://www.youtube.com/watch?v=hGeZuIEV6KU) on YouTube.
+* [**SharpNav**](https://github.com/Robmaister/SharpNav) ![Github stars](https://img.shields.io/github/stars/Robmaister/SharpNav.svg) - A complete and portable pathfinding library in C#. MIT license.
+* [**NGraph**](https://github.com/anvaka/ngraph.path) ![Github stars](https://img.shields.io/github/stars/anvaka/ngraph.path.svg) - A fast path finding library for arbitrary graphs. [Play with a demo](https://anvaka.github.io/ngraph.path.demo/) or [watch it](https://www.youtube.com/watch?v=hGeZuIEV6KU) on YouTube.
 
 ### XNA / MonoGame
 * [**XNA 3.11 to XNA 4.0 Conversion Cheat Sheet**](http://nelxon.com/resources/xna-3-1-to-xna-4-0-cheatsheet.php) - You want to change XNA 3.1 code to 4.0?  This is a great help when searching for a way to get things done the right way. Many examples.  
@@ -147,7 +147,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**World- View- and Projection Transformation Matrices**](http://www.codinglabs.net/article_world_view_projection_matrix.aspx) - A really nice article along with images covering the basics of transformation matrices and how they are commonly used in 3D graphics programming.
 * [**Matrix Naming Convention**](https://www.sebastiansylvan.com/post/matrix_naming_convention/) - A very nice and short article about how to name your transformation matrices and what benefit that brings.
 * [**3D model drawing guide**](http://www.3dgameprogramming.net/2007/06/04/getting-started-with-xna-drawing-a-3d-model/) - You want to draw a 3D model in XNA?  This guide shows, step by step, how to draw a mesh in XNA. Nicely done, thank you very much.  
-* [**A 2D Transform Library**](https://github.com/aloisdeniel/Transform) - Nice library from Alois Deniel. It provides base MonoGame-objects for managing relative transforms in a 2D space. So if you want to link your object to another one and you want it them to move together, this is your library (also pivot points, tweening, etc...).
+* [**A 2D Transform Library**](https://github.com/aloisdeniel/Transform) ![Github stars](https://img.shields.io/github/stars/aloisdeniel/Transform.svg) - Nice library from Alois Deniel. It provides base MonoGame-objects for managing relative transforms in a 2D space. So if you want to link your object to another one and you want it them to move together, this is your library (also pivot points, tweening, etc...).
 * [**2D circles and lines**](http://xboxforums.create.msdn.com/forums/p/7414/200025.aspx) - Want to draw 2D using XNA?Well. Then you're in for a treat!  It's impossible to do that without completely destroying the performance of your game. But since you're inevitably sitting on a high-performance-graphics-workhorse already, you may draw 3D as well. These links show you how.
 * [**2D circles and lines**](http://www.bit-101.com/blog/?p=2832)
 * [**Premultiplied alpha and alpha-blending**](http://blogs.msdn.com/b/shawnhar/archive/2009/11/06/premultiplied-alpha.aspx) - You want to understand the intricacies of this subject?  Well. Here is the Master of XNA for you. May I present: Shawn Hargreaves...  
@@ -170,7 +170,7 @@ This section contains tips about how to structure your programs or how to achiev
 ### Networking
 * [**What Every Programmer Needs To Know About Game Networking**](http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/) - Very nice and short article describing the basics of game networking.
 * [**Lidgren.Network – an introduction to networking in C# games**](http://genericgamedev.com/tutorials/lidgren-network-an-introduction-to-networking-in-csharp-games/) - A nice article that walks you through a simple client and server written with Lidgren.
-* [**Steamworks.NET integration in MonoGame**](https://github.com/sqrMin1/Steamworks.Net-MonoGame-Integration) - Marcel Härtel has a gem here. A nice repo containing an simple MonoGame project with full Steamworks.NET integration.
+* [**Steamworks.NET integration in MonoGame**](https://github.com/sqrMin1/Steamworks.Net-MonoGame-Integration) ![Github stars](https://img.shields.io/github/stars/sqrMin1/Steamworks.Net-MonoGame-Integration.svg) - Marcel Härtel has a gem here. A nice repo containing an simple MonoGame project with full Steamworks.NET integration.
   So if you've wondered how to integrate that library in the best possible way, this is a perfect start.
 * [**Making Fast-Paced Multiplayer Networked Games is Hard**](http://www.gamasutra.com/blogs/MarkMennell/20140929/226628/Making_FastPaced_Multiplayer_Networked_Games_is_Hard.php) - Fast-paced multiplayer networked games over the Internet are difficult to develop to a standard where the experience is still fun. This post is from a developer talking about the caveats of network programming. Very interesting read. Covers all the basics / intermediate stuff.
 * [**Source Multiplayer Networking**](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) - The developers of Valve tell you about how they are handling the many multiplayer-games made with their engine. This article is full of basic stuff you should know about and much hands-on data like how often your server should talk to the clients per second and so on. Nice read.
@@ -194,7 +194,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**XBR - Filter**](http://community.monogame.net/t/xbr-filter/8653/12) - Nice code for implementing an xBR filter that helps you to upscale your sprites without showing pixels. Thanks to Jjagg and Kosmonautgames for adapting that code for MonoGame.
 * [**Bloom Post Process Filter**](http://digitalerr0r.wordpress.com/2009/10/04/xna-shader-programming-tutorial-24-bloom/) - Want your game to shine?  This tutorial explains the use of post process filters and the bloom filter. Many pictures. Expertly commented. Recommended.  
 * [**GPU Driven Terrain Mapping**](http://allenwp.com/blog/2010/05/06/simple-fast-gpu-driven-multi-textured-terrain/) - You want to render your terrain given a low-res terrain-map-texture?  This example uses a low-res terrain-map-texture (where the information which tile to draw is encoded in the colors) to render a terrain. Advanced and only usable under certain circumstances, but worth the time.
-* [**Deferred Engine Playground**](https://github.com/UncleThomy/DeferredEngine) - Deferred rendering engine written to make developing and understanding custom shaders easier.
+* [**Deferred Engine Playground**](https://github.com/UncleThomy/DeferredEngine) ![Github stars](https://img.shields.io/github/stars/UncleThomy/DeferredEngine.svg) - Deferred rendering engine written to make developing and understanding custom shaders easier.
 * [**ShaderFrog**](http://shaderfrog.com/) - A online web-based shader editor providing WYSIWYG. Nice project.
 * [**WPF Shader Effects Library**](http://wpffx.codeplex.com/) - This one contains many cool effect files easy to adopt for your game. It's under the Ms-PL license which should be ok as long as you don't publish the source-code. There is a [video](https://channel9.msdn.com/shows/Continuum/WPFFXDemo/) demonstrating the effects along with a narration.
 * [**Maximizing Depth Buffer Range and Precision**](http://outerra.blogspot.co.at/2012/11/maximizing-depth-buffer-range-and.html) - The guys from Outerra explain some ways to enhance depth-buffering on current hardware.
@@ -214,14 +214,14 @@ This section contains tips about how to structure your programs or how to achiev
 ## Components
 This stuff here is either directly ripped from our game or from other libraries. For you to take and use as you like.  
 
-* [**Object Pool**](https://gist.github.com/guFalcon/39a24c1c0bba644a2ba3e03f53601632) - This is a lock-free object pool. One of the integral parts of a game-engines.
-* [**Collision Grid**](https://github.com/UnterrainerInformatik/collisiongrid) - Used in the broad-phase of collision detection. Faster than a Quad-Tree. Description is inside.
-* [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
-* [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
-* [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
-* [**XNA Examples - MonoGame Port**](https://github.com/DDReaper/XNAGameStudio) - An almost complete MonoGame port of the good old XNA examples from MS.
-* [**A Textbox For MonoGame**](https://github.com/UnterrainerInformatik/Monogame-Textbox) - This repository contains an editable, multi-language, event-driven textbox for MonoGame that supports selection, special characters, SHIFT-CTRL combinations with cursor-keys and cut/copy/paste.
-* [**A Finite State Machine**](https://github.com/UnterrainerInformatik/FiniteStateMachine) - This project implements a Finite-State-Machine (FSM) designed to be used in games. Furthermore it implements even a Stack-Based-FSM (SBFSM). So you may tell it to 'continue with the last state before the active one'. You describe your FSM using a nice and well documented DSL (Domain Specific Language).
+* [**Object Pool**](https://gist.github.com/UnterrainerInformatik/pooling) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/pooling.svg) - This is a lock-free object pool. One of the integral parts of any game-engine.
+* [**Collision Grid**](https://github.com/UnterrainerInformatik/collisiongrid) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/collisiongrid.svg) - Used in the broad-phase of collision detection. Faster than a Quad-Tree. Description is inside.
+* [**SplitStopWatch**](https://github.com/UnterrainerInformatik/splitstopwatch) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/splitstopwatch.svg) - Want to debug timings and you like a pretty console-output using split-times, etc? Take this.
+* [**ThreadPool**](https://github.com/UnterrainerInformatik/threadpool) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/threadpool.svg) - Want to do async work but the methods you like to call all have different signatures? This is a very fast implementation of a fill-and-start thread pool.
+* [**Per Pixel Collision**](https://github.com/UnterrainerInformatik/perPixelCollision) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/perPixelCollision.svg) - Want to know how to do matrix-transformations? Want to know if two textures collide with pixel-precision? Take this, but read the readme.md first. It explains why using this technique in a production environment is a bad idea.
+* [**XNA Examples - MonoGame Port**](https://github.com/DDReaper/XNAGameStudio) ![Github stars](https://img.shields.io/github/stars/DDReaper/XNAGameStudio.svg) - An almost complete MonoGame port of the good old XNA examples from MS.
+* [**A Textbox For MonoGame**](https://github.com/UnterrainerInformatik/Monogame-Textbox) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/Monogame-Textbox.svg) - This repository contains an editable, multi-language, event-driven textbox for MonoGame that supports selection, special characters, SHIFT-CTRL combinations with cursor-keys and cut/copy/paste.
+* [**A Finite State Machine**](https://github.com/UnterrainerInformatik/FiniteStateMachine) ![Github stars](https://img.shields.io/github/stars/UnterrainerInformatik/FiniteStateMachine.svg) - This project implements a Finite-State-Machine (FSM) designed to be used in games. Furthermore it implements even a Stack-Based-FSM (SBFSM). So you may tell it to 'continue with the last state before the active one'. You describe your FSM using a nice and well documented DSL (Domain Specific Language).
 
 ## Libraries
 Here you find game-engines, extensions, etc.
@@ -231,11 +231,11 @@ Here you find game-engines, extensions, etc.
 * [**MonoGame.Extended**](https://github.com/craftworkgames/MonoGame.Extended) ![Github stars](https://img.shields.io/github/stars/craftworkgames/MonoGame.Extended.svg) - An awesome extension library for MonoGame dealing with additional stuff that was out-of-scope for MonoGame.
 * [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg)- Another great extension library. Very comprehensive.
 * [**Corund**](https://github.com/impworks/corund) ![Github stars](https://img.shields.io/github/stars/impworks/corund.svg) - Corund is a 2D game engine for mobile games, based on Monogame (open implementation of XNA). Inherit from a variety of existing objects and behaviours to easily compose a game or a prototype.
-* [**Simplex Engine**](https://github.com/lofcz/SimplexRpgEngine) - Free alternative to Game Maker Studio 2, porting and flavoring GML to C#, running on MonoGame.
+* [**Simplex Engine**](https://github.com/lofcz/SimplexRpgEngine) ![Github stars](https://img.shields.io/github/stars/lofcz/SimplexRpgEngine.svg) - Free alternative to Game Maker Studio 2, porting and flavoring GML to C#, running on MonoGame.
 
 ### Physics
 
-* [**Aether Physics 2D**](https://github.com/tainicom/Aether.Physics2D) - Very nice library from nkast you might know from the MonoGame board. It's a very nicely written 2D collision detection system that sports all possible kinds of stuff like joints, friction, motors, fluid dynamics, buoyancy, and so on...
+* [**Aether Physics 2D**](https://github.com/tainicom/Aether.Physics2D) ![Github stars](https://img.shields.io/github/stars/tainicom/Aether.Physics2D.svg) - Very nice library from nkast you might know from the MonoGame board. It's a very nicely written 2D collision detection system that sports all possible kinds of stuff like joints, friction, motors, fluid dynamics, buoyancy, and so on...
 
 ### UI
 
@@ -250,7 +250,7 @@ Here you find game-engines, extensions, etc.
 
 ### Shadows / Lighting
 * [**Penumbra**](https://github.com/discosultan/penumbra) ![Github stars](https://img.shields.io/github/stars/discosultan/penumbra.svg) - 2D lighting with soft shadows for MonoGame.
-* [**LightingEngine**](https://github.com/felsir/lightingengine) - Felsir open-sourced his lighting code. Nice implementation. Give it a try.
+* [**LightingEngine**](https://github.com/felsir/lightingengine) ![Github stars](https://img.shields.io/github/stars/felsir/lightingengine.svg) - Felsir open-sourced his lighting code. Nice implementation. Give it a try.
 
 ### Map Editors
 * [**Tiled**](http://www.mapeditor.org/) - An awesome editor for all kinds of maps. Freeware and if you search for a MonoGame loader for the maps generated by this beauty, then look for MonoGame.Extended.
@@ -261,7 +261,7 @@ Here you find game-engines, extensions, etc.
 
 ### Connectors
 * [**Steamworks.NET**](https://github.com/rlabrecque/Steamworks.NET) ![Github stars](https://img.shields.io/github/stars/rlabrecque/Steamworks.NET.svg) - A .NET wrapper for the SteamWorks API.
-* [**Facepunch.Steamworks**](https://github.com/Facepunch/Facepunch.Steamworks) - Another popular Steamworks integration, where you can use native C# code (instead of calling functions manually) to communicate with the steam servers.
+* [**Facepunch.Steamworks**](https://github.com/Facepunch/Facepunch.Steamworks) ![Github stars](https://img.shields.io/github/stars/Facepunch/Facepunch.Steamworks.svg) - Another popular Steamworks integration, where you can use native C# code (instead of calling functions manually) to communicate with the steam servers.
 
 ## Tools
 Build tools, deployment tools, etc.
@@ -272,7 +272,7 @@ Build tools, deployment tools, etc.
 
 * [**Intel - Graphics Performance Analyzers**](https://software.intel.com/en-us/gpa) - A nice tool to get performance data from your GPU.
 
-* [Renderdoc](https://github.com/baldurk/renderdoc) - A sandalone graphics performance debugging tool. Nice work. Available on GitHub.
+* [**Renderdoc**](https://github.com/baldurk/renderdoc) ![Github stars](https://img.shields.io/github/stars/baldurk/renderdoc.svg) - A sandalone graphics performance debugging tool. Nice work. Available on GitHub.
 
 * [**Convert to Icon**](http://converticon.com/) - You want your own mouse-cursor?  When programming a game in XNA you come to a point when you want your own mouse-cursor. This program helps you to convert your image-files to an icon-file. And it's completely online.  
 
