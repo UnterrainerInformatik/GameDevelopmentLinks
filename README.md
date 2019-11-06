@@ -200,6 +200,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Maximizing Depth Buffer Range and Precision**](http://outerra.blogspot.co.at/2012/11/maximizing-depth-buffer-range-and.html) - The guys from Outerra explain some ways to enhance depth-buffering on current hardware.
 * [**Depth Precision**](http://dev.theomader.com/depth-precision/) - Another short article about the precision of a depth buffer and how to enhance it. Features a nice graph-calculator.
 * [**Creating Vast Game Worlds - Avalanche Studios**](http://www.humus.name/Articles/Persson_CreatingVastGameWorlds.pdf) - A nice presentation from the SigGraph 2012 conference featuring many screenshots. They talk about how to make such huge worlds work, the impact on the rendering engine, the scene-design and the player.
+* [**2d Refraction Shader example for SpriteBatch**](http://community.monogame.net/t/2d-refraction-shader-example-for-spritebatch/11902) - Nice blogpost from willmotil containing a load of shaders to play around with.
 
 ### Audio
 * [**XACT audio tutorials**](http://rbwhitaker.wikidot.com/audio-tutorials) - You want to make noise, but you don't know how?  This is a very elaborate collection of very useful tutorials starting from "Audio in XNA" and ending with "3D Audio Effects". Very straight forward and many screenshots.  
