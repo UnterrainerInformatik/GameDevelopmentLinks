@@ -367,5 +367,6 @@ You've got no sound yet? These sites contain, besides other stuff, free-for-comm
 
 ## Open Sourced Games
 Here is a list of completed open-sourced games.
+Feel free to add to this per PR. Thx.
 
-* [Infiniminer](https://github.com/craftworkgames/infiniminer) - A game Markus Persson regarded as inspiration before he created Minecraft. Only maintained for about a year, subsequently released under the MIT license. Craftworkgames exported it from google-code to GitHub. The original master-branch on GitHub is no longer maintained.
+* [Infiniminer](https://github.com/craftworkgames/infiniminer) - A game Markus Persson regarded as inspiration when creating Minecraft. Only maintained for about a year, subsequently released under the MIT license. Craftworkgames exported it from google-code to GitHub. The original master-branch on GitHub is no longer maintained.
