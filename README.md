@@ -27,20 +27,32 @@ I tried to sort every link-table it in a way that should benefit your learning c
         * [AI](#ai)
         * [XNA](#xna)
         * [Graphics And Effects](#graphics-and-effects)
+	* [Networking](#networking)
         * [Spatial Partitioning](#spatial-partitioning)
         * [HLSL Shaders](#hlsl-shaders)
         * [Audio](#audio)
+	* [Procedural Generation](#procedural-generation)
 * [Practice](#practice)
     * [Components](#components)
     * [Libraries](#libraries)
       * [Game Engines](#game-engines)
+      * [Physics](#physics)
+      * [UI](#ui)
+      * [Shadows And Lighting](#shadows-and-lighting)
+      * [Map Editors](#map-editors)
       * [Networking](#networking)
       * [Connectors](#connectors)
     * [Tools](#tools)
+      * [Installers And Setup](#installers-and-setup)
+    * [Legal Stuff And Licenses](#legal-stuff-and-licenses)
+      * [Copyright](#copyright)
+      * [Copyleft](#copyleft)
     * [Artistic Material](#artistic-material)
+      * [Mixed](#mixed)
       * [Graphics](#graphics)
       * [Fonts](#fonts)
       * [Sounds](#sounds)
+    * [Open Sourced Games](#open-sourced-games)
 
 # Theory
 
@@ -249,7 +261,7 @@ Here you find game-engines, extensions, etc.
 * [**GeonBit.UI**](https://github.com/RonenNess/GeonBit.UI) ![Github stars](https://img.shields.io/github/stars/RonenNess/GeonBit.UI.svg) - Is the UI / HUD system of the *GeonBit* engine, exported as an independent MonoGame extension under the MIT license. It is a MonoGame-based game engine, designed to build 3d dungeon crawler and FPR (first person rogue) games.
 * [**Myra**](https://github.com/rds1983/Myra) ![Github stars](https://img.shields.io/github/stars/rds1983/Myra.svg) - A nice, albeit very young, GUI framework for MonoGame. Cool if you'd like to contribute.
 
-### Shadows / Lighting
+### Shadows And Lighting
 * [**Penumbra**](https://github.com/discosultan/penumbra) ![Github stars](https://img.shields.io/github/stars/discosultan/penumbra.svg) - 2D lighting with soft shadows for MonoGame.
 * [**LightingEngine**](https://github.com/felsir/lightingengine) ![Github stars](https://img.shields.io/github/stars/felsir/lightingengine.svg) - Felsir open-sourced his lighting code. Nice implementation. Give it a try.
 
@@ -281,13 +293,13 @@ Build tools, deployment tools, etc.
 
 * [**Using Platform Specific Libraries from a Platform Agnostic Project**](http://code-jedi.com/blog/post/Using-Platform-Specific-Libraries-from-a-Platform-Agnostic-Project) - We've all had this problem. You want to use a library, but that comes in x86 or x64 flavor and your game should use the 'AnyCPU' target. This article describes how you can switch between the libraries on demand after editing the project file directly. Works like a charm, although it just determines the currently used context and replaces the files accordingly. So you cannot really build an 'AnyCPU' project using this method because the build-result will be fixed to the context used on your computer at compile-time.
 
-  ### Installers / Setup
+  ### Installers And Setup
 
   * [Inno Setup](http://www.jrsoftware.org/isinfo.php) - This is a nice, free for commercial use, installer that is surprisingly versatile. Not really suited for more complex stuff.
   * [WiX - Windows Installer XML](http://wixtoolset.org/) - THE gold standard for building setups. Can get pretty messy with more complex stuff though.
   * [NSIS](http://nsis.sourceforge.net/Main_Page) - That's the installer package MonoGame uses for its installer. Nice to handle, open source.
 
-## Legal Stuff, Licenses
+## Legal Stuff And Licenses
 One important thing: When searching for legal advice concerning licenses you'll be pretty much out of luck. Most of the time people tell you that they won't give 'legal advice' since the legal ramifications resulting from such an advice are just too awful.
 So I won't do that either. You'll have to read for yourself and don't just take my word for it.
 So, for what it's worth, here are some useful links and the comments are just my humble opinion.
@@ -352,3 +364,8 @@ You've got no sound yet? These sites contain, besides other stuff, free-for-comm
 * [**SoundImage - Eric Matyas**](http://soundimage.org/) - Very large and cool library of original music-pieces, textures and sounds all licensed under a public license that only reqires proper attribution as stated on the About-page 'Section 3 – License Conditions.'. It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work. Please consider donating a small amount of money for all the hard work.
 * [**Echo Blue Music - Devynn**](https://www.echobluemusic.com) - Large library with music, albums and sound-effects with astonishing quality from an accomplished artist. Thanks Devynn for sharing. (CC by 4.0 license, completely free for commercial use, just attribute correctly as stated on the page).
 * [**Acapela-Box**](https://acapela-box.com/) - Very hight quality test-to-speech engine with nice voices. Achives almost natural sounding speech. Download costs a bit, but at very reasonable rates.
+
+## Open Sourced Games
+Here is a list of completed open-sourced games.
+
+* [Infiniminer](https://github.com/craftworkgames/infiniminer) - A game Markus Persson regarded as inspiration before he created Minecraft. Only maintained for about a year, subsequently released under the MIT license. Craftworkgames exported it from google-code to GitHub. The original master-branch on GitHub is no longer maintained.
