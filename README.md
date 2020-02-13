@@ -71,7 +71,7 @@ No specific order.
 * [**Shawn Hargreave's Blog**](http://www.shawnhargreaves.com/blogindex.html) - This is a must-read for every XNA developer. The blog of the Master himself.
 * [**XNAdevelopment**](http://www.xnadevelopment.com/tutorials.shtml) - Great beginners tutorials around XNA game development.
 * [**Catalin Zima's Blog**](http://www.catalinzima.com) - You should all know this one (and you will, I promise). Good examples. I would say that most of the content in here is for the advanced beginner.
-* [**Riemer's XNA Tutorials**](http://www.riemers.net/) - Flood of useful tutorials. I found it a bit untidy in a way.
+* [**Riemer's XNA Tutorials**](https://web.archive.org/web/20190718040823/http://www.riemers.net/) - Flood of useful tutorials. I found it a bit untidy in a way. (archive)
 * [**digitalerr0r**](http://digitalerr0r.wordpress.com/tutorials/) - HLSL tutorials for every level of expertise. Nice guy but sort of retired, sadly.
 * [**Kyle Schouviller's Blog**](http://www.kyleschouviller.com/) - Good tutorials. Focus on content and tooling.
 * [**RB Whitaker's Wiki**](http://rbwhitaker.wikidot.com/xna-tutorials) - Extremely versatile. Covers almost every aspect of XNA game development. Many thanks.
