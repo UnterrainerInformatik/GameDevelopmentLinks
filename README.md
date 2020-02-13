@@ -68,7 +68,7 @@ Here are other link-lists to browse.
 
 No specific order.  
 
-* [**Shawn Hargreave's Blog**](http://blogs.msdn.com/b/shawnhar/) - This is a must-read for every XNA developer. The blog of the Master himself.
+* [**Shawn Hargreave's Blog**](http://www.shawnhargreaves.com/blogindex.html) - This is a must-read for every XNA developer. The blog of the Master himself.
 * [**XNAdevelopment**](http://www.xnadevelopment.com/tutorials.shtml) - Great beginners tutorials around XNA game development.
 * [**Catalin Zima's Blog**](http://www.catalinzima.com) - You should all know this one (and you will, I promise). Good examples. I would say that most of the content in here is for the advanced beginner.
 * [**Riemer's XNA Tutorials**](http://www.riemers.net/) - Flood of useful tutorials. I found it a bit untidy in a way.
