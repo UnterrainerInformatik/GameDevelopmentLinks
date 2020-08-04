@@ -292,6 +292,7 @@ Build tools, deployment tools, etc.
 
 * [**Using Platform Specific Libraries from a Platform Agnostic Project**](http://code-jedi.com/blog/post/Using-Platform-Specific-Libraries-from-a-Platform-Agnostic-Project) - We've all had this problem. You want to use a library, but that comes in x86 or x64 flavor and your game should use the 'AnyCPU' target. This article describes how you can switch between the libraries on demand after editing the project file directly. Works like a charm, although it just determines the currently used context and replaces the files accordingly. So you cannot really build an 'AnyCPU' project using this method because the build-result will be fixed to the context used on your computer at compile-time.
 
+* [**Asset Forge**](https://assetforge.io/) *(~20 USD)* Asset Forge allows anyone to create 3D models and 2D sprites using building blocks. Models are compatible with most available game engines.
   ### Installers And Setup
 
   * [Inno Setup](http://www.jrsoftware.org/isinfo.php) - This is a nice, free for commercial use, installer that is surprisingly versatile. Not really suited for more complex stuff.
@@ -332,9 +333,10 @@ All the sites I link to in this paragraph contain "free for commercial use" mate
 You won't be able to dodge the fight with the even or odd license-text when dealing with creative content, so you might as well get over it and try to get a grasp on things.  		
 ### Mixed		
 * [**Open Game Art**](http://opengameart.org/) - A site containing a rather limited collection of open art, but still, worth a look.		
-* [**Gamedeveloper Studio**](http://www.gamedeveloperstudio.com/) - Looking for game assets?  Are you looking for professional quality assets for your games? Would you like to cut your development time in half? This site contains some royalty free content.		
+* [**Gamedeveloper Studio**](http://www.gamedeveloperstudio.com/) - Looking for game assets?  Are you looking for professional quality assets for your games? Would you like to cut your development time in half? This site contains some royalty free content.
+* [**Kenney**](https://www.kenney.nl) Kenney, a game studio that creates a wide array of games and game assets for other developers to use (for free!). All assets are high quality 2D, 3D, UI and sound assets.
 		
-Would you prefer not to invest hundreds or thousands of dollars into your title?		
+Would you prefer not to invest hundreds or thousands of dollars into your title?
 		
 ### Graphics		
 You want a sky-, grass- or other texture? These sites contain, besides other stuff, free-for-commercial-use textures.  		
@@ -347,6 +349,7 @@ You want a sky-, grass- or other texture? These sites contain, besides other stu
   Despite the name it contains really great textures (seamless ones as well).		
   It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work. Please consider donating a small amount of money for all the hard work.		
 * [**TreeIt**](http://www.evolved-software.com/treeit/treeit) - A nice piece of work from EVOLVED software. Thanks. Procedurally generates 3D trees you are free to use in your games.
+* [**Kenney**](https://www.kenney.nl) Kenney, a game studio that creates a wide array of games and game assets for other developers to use (for free!). All assets are high quality 2D, 3D, UI and sound assets.
 		
 ### Fonts		
 You want to write something on the screen without getting sued?  These sites contain, besides other stuff, many free-for-commercial-use fonts (you'll have to read the licenses though).  		
@@ -363,6 +366,7 @@ You've got no sound yet? These sites contain, besides other stuff, free-for-comm
 * [**SoundImage - Eric Matyas**](http://soundimage.org/) - Very large and cool library of original music-pieces, textures and sounds all licensed under a public license that only reqires proper attribution as stated on the About-page 'Section 3 – License Conditions.'. It is neatly explained again on the home-page of this site. Thanks Eric Matyas. Great work. Please consider donating a small amount of money for all the hard work.
 * [**Echo Blue Music - Devynn**](https://www.echobluemusic.com) - Large library with music, albums and sound-effects with astonishing quality from an accomplished artist. Thanks Devynn for sharing. (CC by 4.0 license, completely free for commercial use, just attribute correctly as stated on the page).
 * [**Acapela-Box**](https://acapela-box.com/) - Very hight quality test-to-speech engine with nice voices. Achives almost natural sounding speech. Download costs a bit, but at very reasonable rates.
+* [**Kenney**](https://www.kenney.nl/assets?q=audio) Kenney, a game studio that creates a wide array of games and game assets for other developers to use (for free!). All assets are high quality 2D, 3D, UI and sound assets.
 
 ## Open Sourced Games
 Here is a list of completed open-sourced games.
