@@ -244,6 +244,7 @@ Here you find game-engines, extensions, etc.
 * [**Nez**](https://github.com/prime31/Nez) ![Github stars](https://img.shields.io/github/stars/prime31/Nez.svg)- Another great extension library. Very comprehensive.
 * [**Corund**](https://github.com/impworks/corund) ![Github stars](https://img.shields.io/github/stars/impworks/corund.svg) - Corund is a 2D game engine for mobile games, based on Monogame (open implementation of XNA). Inherit from a variety of existing objects and behaviours to easily compose a game or a prototype.
 * [**Simplex Engine**](https://github.com/lofcz/SimplexRpgEngine) ![Github stars](https://img.shields.io/github/stars/lofcz/SimplexRpgEngine.svg) - Free alternative to Game Maker Studio 2, porting and flavoring GML to C#, running on MonoGame.
+* [**Lost Astronaut's Game Creation Framework**](https://github.com/LAGameStudio/apolune) an AGPL game engine written for WinAPI entirely in C++ that handles graphics, games and other functionality, the product of a 15 year long project only recently released as open source
 
 ### Physics
 
@@ -373,3 +374,4 @@ Here is a list of completed open-sourced games.
 Feel free to add to this per PR. Thx.
 
 * [Infiniminer](https://github.com/craftworkgames/infiniminer) - A game Markus Persson regarded as inspiration when creating Minecraft. Only maintained for about a year, subsequently released under the MIT license. Craftworkgames exported it from google-code to GitHub. The original master-branch on GitHub is no longer maintained.
+* [Apolune](https://github.com/LAGameStudio/apolune) - A game and game framework packed into one, released by Lost Astronaut Studios
