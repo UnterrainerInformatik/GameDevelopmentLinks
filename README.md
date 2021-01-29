@@ -127,7 +127,7 @@ This section contains tips about how to structure your programs or how to achiev
 * [**Decompress DXT textures**](http://www.gamedev.net/topic/467156-dxt-decompress-in-c/) - You want to manually decompress DXT Format Files? There are not many reasons for you to want to do this, but nevertheless. Here it is.  
 * [**Super Nerd Boy**](http://meyermike.com/wp/?p=160) - Mike's Blog about the experience of making a 2D platformer hero jump the right way.
 * [**The Guide to Implementing 2D Platformers**](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/) - This article is about all the basics you have to consider when implementing a 2D platformer... Tiles, slopes, ladders, bitmasks... Pretty much the works.
-* [**Map Collision Detection And Slope Implementation**](http://www.vermiliontower.com/2017/08/23/map-collision-detection-and-slope-implementation/) - VermillionTower wrote a blog post about his experiences when programming Thornbridge Saga. Nice read. Good tips.
+* [**Map Collision Detection And Slope Implementation**](https://wizard.vermiliontower.com/blog/post/2899241181627097135) - VermillionTower wrote a blog post about his experiences when programming Thornbridge Saga. Nice read. Good tips.
 * [**Voxel Engine**](http://gamecoderbr.blogspot.co.at/2013/03/voxel-engine-part-1.html) - Some years ago [Charles Barros](https://plus.google.com/112734489862185916146) dedicated some time to making a Voxel Engine for Unity. He wrote about the most important parts and also linked some interesting articles there.
 
 ### AI
