@@ -79,6 +79,8 @@ No specific order.
 * [**XNA Game Tutorials**](http://xnatd.blogspot.co.at/) - Some XNA game tutorials (2D collision, etc…)
 * [**The Darkside of MonoGame**](http://www.youtube.com/c/TheDarksideofMonoGame) - New tutorial series delivering both Video and Text tutorials on the latest MonoGame content
 * [**Basic 2D Platformer Physics**](https://gamedevelopment.tutsplus.com/series/basic-2d-platformer-physics--cms-998) - Nice series by Daniel Branicki.
+* [**Game Programming Adventures**](https://cynthiamcmahon.ca/blog/) - A blog with some MonoGame/XNA game tutorials.
+* [**Scott Lilly's site**](https://scottlilly.com/) - Some C# tutorials, with a focus on making an RPG game with windows forms/WPF.
 
 ## Lookup Tables
 This section contains tables that I found useful during game-development.  
