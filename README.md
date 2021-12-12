@@ -372,18 +372,14 @@ You've got no sound yet? These sites contain, besides other stuff, free-for-comm
 * [**Kenney**](https://www.kenney.nl/assets?q=audio) Kenney, a game studio that creates a wide array of games and game assets for other developers to use (for free!). All assets are high quality 2D, 3D, UI and sound assets.
 
 ## Open Sourced Games
-Here is a list of completed open-sourced games.
+Here is a list of interesting open-sourced games.
 Feel free to add to this per PR. Thx.
 
-### C#
+#### C#
 * [Infiniminer](https://github.com/craftworkgames/infiniminer) (XNA) - A game Markus Persson regarded as inspiration when creating Minecraft. Only maintained for about a year, subsequently released under the MIT license. Craftworkgames exported it from google-code to GitHub. The original master-branch on GitHub is no longer maintained.
 * [DwarfCorp](https://github.com/Blecki/dwarfcorp) (XNA) - A procedurally generated 3d voxel-based colony-management game, similar to dwarf fortress.
 * [OpenRA](https://github.com/OpenRA/OpenRA) - A real-time strategy game engine for early Westwood games
+* [OpenVIII-monogame](https://github.com/MaKiPL/OpenVIII-monogame) (MonoGame) - A reimplementation of the final fantasy VIII engine. (Unfinished)
 
-#### Unfinished projects
-Here is a list of interesting, but unfinished open-source projects.
-
-* [OpenVIII-monogame](https://github.com/MaKiPL/OpenVIII-monogame) (MonoGame) - A reimplementation of the final fantasy VIII engine.
-
-### C++
+#### C++
 * [Apolune](https://github.com/LAGameStudio/apolune) - A game and game framework packed into one, released by Lost Astronaut Studios
