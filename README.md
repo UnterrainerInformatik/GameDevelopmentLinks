@@ -378,7 +378,6 @@ Feel free to add to this per PR. Thx.
 ### C#
 * [Infiniminer](https://github.com/craftworkgames/infiniminer) (XNA) - A game Markus Persson regarded as inspiration when creating Minecraft. Only maintained for about a year, subsequently released under the MIT license. Craftworkgames exported it from google-code to GitHub. The original master-branch on GitHub is no longer maintained.
 * [DwarfCorp](https://github.com/Blecki/dwarfcorp) (XNA) - A procedurally generated 3d voxel-based colony-management game, similar to dwarf fortress.
-* [UltimaXNA](https://github.com/ZaneDubya/UltimaXNA) (XNA) - An Ultima-Online client using XNA. Unfinished, but probably still a valuable example.
 
 ### C++
 * [Apolune](https://github.com/LAGameStudio/apolune) - A game and game framework packed into one, released by Lost Astronaut Studios
