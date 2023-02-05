@@ -344,7 +344,6 @@ Would you prefer not to invest hundreds or thousands of dollars into your title?
 ### Graphics		
 You want a sky-, grass- or other texture? These sites contain, besides other stuff, free-for-commercial-use textures.  		
 		
-* [http://www.noctua-graphics.de/deutsch/fraset_d.htm](http://www.noctua-graphics.de/deutsch/fraset_d.htm)  		
 * [http://telias.free.fr/](http://telias.free.fr/)  		
 * [http://www.cgtextures.com/](http://www.cgtextures.com/)  		
 * [https://remos.itch.io/isometric-tree-sprites](https://remos.itch.io/isometric-tree-sprites)		
