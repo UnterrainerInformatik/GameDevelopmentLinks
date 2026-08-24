@@ -281,8 +281,6 @@ Here you find game-engines, extensions, etc.
 ## Tools
 Build tools, deployment tools, etc.
 
-* [**ProtoBuild**](https://protobuild.org/) - If you wanna do cross-platform development this tool will help you to keep your project-files in order.
-
 * [**wyBuild**](http://wyday.com/wybuild/features.php) - You want to have an updating game (maybe self-updating)?  A tool to create and deliver AND install updates manually or automatically in any given .NET language. This one saved and saves our butts during the alpha-testing stage.  
 
 * [**Intel - Graphics Performance Analyzers**](https://software.intel.com/en-us/gpa) - A nice tool to get performance data from your GPU.
